@@ -1,0 +1,3702 @@
+<!DOCTYPE html> 
+<html lang="en" manifest="cache.manifest">
+<head> 
+	<title>Vegetarian Pizza Recipes</title> 
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+
+	<link rel="stylesheet" href="themes/pizzapasta.min.css" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+
+<script type="text/javascript">
+    $(document).bind("mobileinit", function(){
+        $.mobile.page.prototype.options.addBackBtn= true;
+    });
+</script>
+
+<script type="text/javascript" charset="utf-8">
+  document.addEventListener("deviceready", onDeviceReady, false);
+  function onDeviceReady() {
+  navigator.splashscreen.show();
+  }
+
+<script type="text/javascript" src="cordova.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+	<script type="text/javascript">
+	app.initialize();
+	</script>
+
+
+
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile.structure-1.3.1.min.css" />
+
+		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+	
+
+
+	<link rel="apple-touch-icon-precomposed" href="icon.jpg"/>
+  	<link rel="apple-touch-icon" href="icon.png"/>
+	<link rel="apple-touch-startup-image" href="startup.png" />  
+
+	<link rel="apple-touch-icon" href="touch-icon-iphone.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="touch-icon-ipad.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="touch-icon-iphone4.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="touch-icon-ipad2.png">
+
+
+	
+<style>	
+		.nav-glyphish-example .ui-btn .ui-btn-inner { padding-top: 35px !important; }
+		.nav-glyphish-example .ui-btn .ui-icon { width: 30px!important; height: 30px!important; margin-left: -15px !important; box-shadow: none!important; -moz-box-shadow: none!important; -webkit-box-shadow: none!important; -webkit-border-radius: 0 !important; border-radius: 0 !important; }
+		#home .ui-icon { background:  url(glyphish-icons/53-house.png) 50% 50% no-repeat; background-size: 24px 22px; }
+		#history .ui-icon { background:  url(glyphish-icons/12-eye.png) 50% 50% no-repeat; background-size: 24px 16px;  }
+		#coffee .ui-icon { background:  url(glyphish-icons/34-coffee.png) 50% 50% no-repeat;  background-size: 20px 24px; }
+		#tips .ui-icon { background:  url(glyphish-icons/179-notepad.png) 50% 50% no-repeat;  background-size: 22px 24px; }
+		#stuff .ui-icon { background:  url(glyphish-icons/102-walk.png) 50% 50% no-repeat;  background-size: 22px 24px; }
+
+h3#center {
+        text-align: center;
+    }
+
+.ui-listview li {
+  -webkit-transform: translateZ(0);
+}
+
+.ui-block-a#pic {
+	background-color:#000000;
+}
+
+.ui-li-icon {
+        width:25px; height:25px;
+        vertical-align: middle; 
+}
+
+img {
+    width:55px; height:55px;
+    position:relative;
+    top:0;
+    bottom:0;
+    margin:auto;
+   
+}
+
+img.popphoto {padding:10px; background-color: DarkRed; -moz-border-radius: 7px; -webkit-border-radius: 7px; border-radius: 7px;}  
+
+img.tumble {padding:8px; background-color: DarkGreen; -moz-border-radius: 5px; -webkit-border-radius: px; border-radius: 5px;}     
+	</style>
+
+</head> 
+<body> 
+
+
+
+<div data-role="page" id="menu" data-add-back-btn="true" data-theme="a">
+
+	<div data-role="header" data-theme="a">
+		<h1>Veggi Pizzas</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="a">	
+	<ul data-role="listview" data-theme="b" 
+	data-inset="true" data-filter="true" data-filter-theme="a" 
+	data-autodividers="true" data-divider-theme="b">
+	
+	<li><a href="#page1" >
+	<img class="tumble" src="images/r18.jpg">
+	<h3>Apple Pizza</h3><p>Desert Pizza</p> 
+
+
+	<li><a href="#page2" >
+	<img class="tumble" src="images/r42.jpg">
+	<h3>Arugula with Poached Eggs</h3><p>Main Dish Pizza</p> 
+	
+	<li><a href="#page3" >
+	<img class="tumble" src="images/r31.jpg">
+	<h3>Banana Brownie Pizza</h3><p>Sweet Pizza</p> 
+
+	<li><a href="#page4" >
+	<img class="tumble" src="images/r3.jpg">
+	<h3>Black Bean Nacho Pizza</h3><p>Main Dish Pizza</p> 
+
+	<li><a href="#page5" >
+	<img class="tumble" src="images/r30.jpg">
+	<h3>Breakfeast Pizza</h3><p>Sweet Pizza</p> 
+	
+	<li><a href="#page6" >
+	<img class="tumble" src="images/r32.jpg">
+	<h3>Brownie Marchmellows Pizza</h3><p>Sweet Pizza</p> 
+	
+	<li><a href="#page7" >
+	<img class="tumble" src="images/r46.jpg">
+	<h3>Cabbage Pizza</h3><p>Main Dish Pizza</p> 
+	
+	<li><a href="#page8" >
+	<img class="tumble" src="images/r10.jpg">
+	<h3>Caramelized Onion Pizza</h3><p>Main Dish Pizza</p> 
+
+	<li><a href="#page9" >
+	<img class="tumble" src="images/r29.jpg">
+	<h3>Chocolate Pizza</h3><p>Sweet Pizza</p> 
+	
+	<li><a href="#page10" >
+	<img class="tumble" src="images/r26.jpg">
+	<h3>Chream Cheese Pizza</h3><p>Sweet Pizza</p> 
+
+	<li><a href="#page11" >
+	<img class="tumble" src="images/r25.jpg">
+	<h3>Creamy Cheese Asparagus Pizza</h3><p>Main Dish Pizza</p> 
+
+	<li><a href="#page12" >
+	<img class="tumble" src="images/r13.jpg">
+	<h3>Easy Crescent Veggi Pizza</h3><p>Main Dish Pizza</p> 
+
+	<li><a href="#page13" >
+	<img class="tumble" src="images/r16.jpg">
+	<h3>Easy Veggi Pizza</h3><p>Main Dish Pizza</p> 
+
+	<li><a href="#page14" >
+	<img class="tumble" src="images/r1.jpg">
+	<h3>Eggplant Parmesan Pizza</h3><p>Main Dish Pizza</p> 
+
+	<li><a href="#page15" >
+	<img class="tumble" src="images/r6.jpg">
+	<h3>Fennel, Goat Cheese Pizza</h3><p>Main Dish Pizza</p> 
+
+	<li><a href="#page16" >
+	<img class="tumble" src="images/r27.jpg">
+	<h3>Feta and Hummus Pizza</h3><p>Main Dish Pizza</p> 
+
+	<li><a href="#page17" >
+	<img class="tumble" src="images/r40.jpg">
+	<h3>Four Cheese Pizza</h3><p>Main Dish Pizza</p> 
+
+	<li><a href="#page18" >
+	<img class="tumble" src="images/r19.jpg">
+	<h3>French Bread Pizza</h3><p>Main Dish Pizza</p> 
+
+	<li><a href="#page19" >
+	<img class="tumble" src="images/r12.jpg">
+	<h3>Fresh Tomato & Black Olive Pizza</h3><p>Main Dish Pizza</p> 
+
+	<li><a href="#page20" >
+	<img class="tumble" src="images/r15.jpg">
+	<h3>Fresh Vegetable Pizza</h3><p>Main Dish Pizza</p> 
+
+	<li><a href="#page21" >
+	<img class="tumble" src="images/r28.jpg">
+	<h3>Fruit Pizza</h3><p>Desert Pizza</p> 
+
+	<li><a href="#page22" >
+	<img class="tumble" src="images/r34.jpg">
+	<h3>Fudgy Nut and Fluff Apple Pizza</h3><p>Desert Pizza</p> 
+
+	<li><a href="#page23" >
+	<img class="tumble" src="images/r9.jpg">
+	<h3>Garden Pizza</h3><p>Main Dish Pizza</p> 
+
+	<li><a href="#page24" >
+	<img class="tumble" src="images/r4.jpg">
+	<h3>Green Pizza</h3><p>Main Dish Pizza</p> 
+
+	<li><a href="#page25" >
+	<img class="tumble" src="images/r37.jpg">
+	<h3>Grilled Breakfeast Pizza</h3><p>Breakfeast Pizza</p> 
+
+	<li><a href="#page26" >
+	<img class="tumble" src="images/r21.jpg">
+	<h3>Grilled Eggplant & Fresh Basil Pizza</h3><p>Main Dish Pizza</p> 
+
+	<li><a href="#page27" >
+	<img class="tumble" src="images/r5.jpg">
+	<h3>Grilled Pizza with Pesto, Tomatoes & Feta</h3><p>Main Dish Pizza</p> 
+
+	<li><a href="#page28" >
+	<img class="tumble" src="images/r45.jpg">
+	<h3>Indian Pizza</h3><p>Main Dish Pizza</p> 
+
+	<li><a href="#page29" >
+	<img class="tumble" src="images/r38.jpg">
+	<h3>Japanese Pizza</h3><p>Main Dish Pizza</p> 
+
+	<li><a href="#page30" >
+	<img class="tumble" src="images/r33.jpg">
+	<h3>Peach and Blueberry Pizza</h3><p>Desert Pizza</p> 
+
+	<li><a href="#page31" >
+	<img class="tumble" src="images/r7.jpg">
+	<h3>Pear & Blue Cheese Flatbread</h3><p>Main Dish Pizza</p> 
+
+	<li><a href="#page32" >
+	<img class="tumble" src="images/r24.jpg">
+	<h3>Pesto Pizza</h3><p>Main Dish Pizza</p> 
+
+	<li><a href="#page33" >
+	<img class="tumble" src="images/r36.jpg">
+	<h3>Plum Pizza with Ricotta, Apricot, Peanuts</h3><p>Main Dish Pizza</p> 
+
+	<li><a href="#page34" >
+	<img class="tumble" src="images/r39.jpg">
+	<h3>Pizza Margherita</h3><p>Main Dish Pizza</p> 
+
+	<li><a href="#page35" >
+	<img class="tumble" src="images/r11.jpg">
+	<h3>Pizza with White Bean Puree & Fresh Tomatoes</h3><p>Main Dish Pizza</p> 
+
+	<li><a href="#page36" >
+	<img class="tumble" src="images/r22.jpg">
+	<h3>Pumpkin Pizza</h3><p>Main Dish Pizza</p> 
+
+	<li><a href="#page37" >
+	<img class="tumble" src="images/r35.jpg">
+	<h3>Rasberry - Almond Pizza</h3><p>Desert Pizza</p> 
+
+	<li><a href="#page38" >
+	<img class="tumble" src="images/r44.jpg">
+	<h3>Rousted Beet Pizza</h3><p>Main Dish Pizza</p>
+
+	<li><a href="#page39" >
+	<img class="tumble" src="images/r43.jpg">
+	<h3>Rousted Veggies & Ricotta Pizza</h3><p>Main Dish Pizza</p>  
+
+	<li><a href="#page40" >
+	<img class="tumble" src="images/r20.jpg">
+	<h3>Sausage Substitude Pizza</h3><p>Main Dish Pizza</p> 
+
+	<li><a href="#page41" >
+	<img class="tumble" src="images/r8.jpg">
+	<h3>Smoky Corn & Black Bean Pizza</h3><p>Main Dish Pizza</p> 
+
+	<li><a href="#page42" >
+	<img class="tumble" src="images/r2.jpg">
+	<h3>Spinach & Sun-Dried Tomato Stuffed Pizza</h3><p>Main Dish Pizza</p> 
+
+	<li><a href="#page43" >
+	<img class="tumble" src="images/r14.jpg">
+	<h3>Thai Appetizer Pizza</h3><p>Main Dish Pizza</p> 
+
+	<li><a href="#page44" >
+	<img class="tumble" src="images/r23.jpg">
+	<h3>Veggi BBQ Chicken Wing Pizza</h3><p>Main Dish Pizza</p> 
+
+	<li><a href="#page45" >
+	<img class="tumble" src="images/r41.jpg">
+	<h3>Veggi Grilled Pizza</h3><p>Main Dish Pizza</p> 
+
+	<li><a href="#page46" >
+	<img class="tumble" src="images/r17.jpg">
+	<h3>Veggi Mexican Taco Pizza</h3><p>Main Dish Pizza</p> 
+</ul>	
+	</div><!-- /content -->
+
+	
+</div><!-- /page -->
+	
+
+
+
+<div data-role="page" id="history" data-add-back-btn="true"><!-- page Pizza Dough-->
+
+	<div data-role="header" data-theme="a" data-position="inline">
+		<h1>About</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="a">
+
+<strong>Quick Pizza Dough</strong>
+
+
+<p>INGREDIENTS for 6 servings:</p>
+2 cups all-purpose flour<br>
+1 package quick-rising yeast<br>
+1 teaspoon salt<br>
+1/2 teaspoon sugar<br>
+1 teaspoon extra-virgin olive oil<br>
+3/4 cup water<br>
+
+<p>PREPARATION</p>
+Pulse flour, yeast, salt and sugar in a food processor until mixed.
+<p>
+Heat oil and water in a small saucepan or in a glass measuring cup in the microwave to between 120 and 130°F. With the processor on, gradually pour the warm liquid through the feed tube. (If the mixture is too dry, add 1 or 2 tablespoons warm water.) Process until the dough forms a ball, then process for 1 minute to knead.
+Transfer the dough to a lightly floured surface. Cover with plastic wrap and let rest for 10 to 15 minutes.
+</p>
+TIPS & NOTES<br>
+Make Ahead Tip: The dough can be made ahead, enclosed in a plastic bag and stored in the refrigerator overnight. Bring to room temperature before using.<br>
+
+<p>
+ <strong>Whole-Wheat Pizza Dough</strong>    </p>
+
+<p>INGREDIENTS
+for 12 OUNCES DOUGH:</p>
+3/4 cup whole-wheat flour<br>
+3/4 cup all-purpose flour<br>
+1 package quick-rising yeast<br>
+3/4 teaspoon salt<br>
+1/4 teaspoon sugar<br>
+1/2-2/3 cup hot water, (120-130°F)<br>
+2 teaspoons extra-virgin olive oil<br>
+
+<p>TO MAKE 1 POUND DOUGH:</p>
+1 cup whole-wheat flour<br>
+1 cup all-purpose flour<br>
+1 package quick-rising yeast<br>
+1 teaspoon salt<br>
+1/2 teaspoon sugar<br>
+3/4 cup hot water, (120-130°F)<br>
+1 tablespoon extra-virgin olive oil<br>
+
+<p>PREPARATION</p>
+Combine whole-wheat flour, all-purpose flour, yeast, salt and sugar in a food processor; pulse to mix. Combine hot water and oil in a measuring cup. With the motor running, gradually pour in enough of the hot liquid until the mixture forms a sticky ball. The dough should be quite soft. If it seems dry, add 1 to 2 tablespoons warm water; if too sticky, add 1 to 2 tablespoons flour. Process until the dough forms a ball, then process for 1 minute to knead.
+<p>
+Transfer the dough to a lightly floured surface. Coat a sheet of plastic wrap with cooking spray and place it, sprayed-side down, over the dough. Let the dough rest for 10 to 20 minutes before rolling.
+Place a pizza stone or inverted baking sheet on the lowest oven rack; preheat oven to 500°F or highest setting. Roll and top the pizza as desired (we suggest a 13-inch circle) and bake the pizza until the bottom is crisp and golden, 10 to 14 minutes. Serve immediately.</p>
+
+TIPS & NOTES<br>
+Make Ahead Tip: Store in a plastic bag coated with cooking spray in the refrigerator for up to 2 days. Bring to room temperature before using.<br>
+
+
+<p>
+<strong>Home made Pizza Dough:</strong></p>
+1/2 cup warm water (105 to 110 degrees F)<br>
+2 teaspoons active dry yeast<br>
+2 cups all-purpose flour, plus more for kneading<br>
+1 teaspoon salt<br>
+3 tablespoons olive oil, plus more for bowl<br>
+Mix the warm water and yeast in a small bowl to blend. Let stand until the yeast dissolves, about 5 minutes. Mix the flour and salt in a food processor to blend. Blend in the oil. With the machine running, add the yeast mixture and blend just until the dough forms. Turn the dough out onto lightly floured surface and knead until smooth, about 1 minute. Transfer the dough to a large oiled bowl and turn the dough to coat with the oil. Cover the bowl with plastic wrap and set aside in a warm draft-free area until the dough doubles in volume, about 1 hour. Punch the down dough and form into ball. The dough can be used immediately or stored airtight in the refrigerator for 1 day.
+
+
+<p><strong>White Bean Puree</strong></p>
+INGREDIENTS<br>
+3/4 cup water<br>
+1 clove garlic, cut in half<br>
+1 15-ounce can cannellini or Great Northern beans, rinsed<br>
+1/2 teaspoon extra-virgin olive oil<br>
+1 teaspoon finely chopped fresh sage, or 1/4 teaspoon dried rubbed sage<br>
+Salt & freshly ground pepper to taste<br>
+
+<p>PREPARATION</p>
+Pour water into a saucepan, add garlic and bring to a boil over high heat. Add beans and return to a boil. Drain the beans and garlic, reserving 1/4 cup of the cooking liquid.
+
+<p>
+Transfer the beans and garlic to a food processor. Add oil and process, adding just enough of the reserved cooking liquid to make a thick, smooth paste. Stir in sage and season to taste with salt and pepper.<p>
+
+
+
+
+</div><!-- /content -->
+<div data-role="footer" class="nav-glyphish-example" data-id="foo1" data-position="inline">
+		<div data-role="navbar" class="nav-glyphish-example" data-grid="c">
+<ul>
+<li><a href="#menu"   id="home" data-icon="custom" data-theme="c">Menu</a></li>
+<li><a href="#info" id="history" data-icon="custom" data-theme="c">About</a></li>
+<li><a href="#tips" id="tips" data-icon="custom" data-theme="c">Dough</a></li>
+<li><a href="#menu" id="stuff" data-icon="custom" data-theme="c">Next</a></li>
+</ul>
+		</div>
+	
+	</div>
+</div><!-- /page tips -->
+
+
+
+<div data-role="page" id="tips" data-add-back-btn="true"><!-- page Pizza Dough-->
+
+	<div data-role="header" data-theme="a" data-position="inline">
+		<h1>Pizza Dough</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="a">
+
+<strong>Quick Pizza Dough</strong>
+
+
+<p>INGREDIENTS for 6 servings:</p>
+2 cups all-purpose flour<br>
+1 package quick-rising yeast<br>
+1 teaspoon salt<br>
+1/2 teaspoon sugar<br>
+1 teaspoon extra-virgin olive oil<br>
+3/4 cup water<br>
+
+<p>PREPARATION</p>
+Pulse flour, yeast, salt and sugar in a food processor until mixed.
+<p>
+Heat oil and water in a small saucepan or in a glass measuring cup in the microwave to between 120 and 130°F. With the processor on, gradually pour the warm liquid through the feed tube. (If the mixture is too dry, add 1 or 2 tablespoons warm water.) Process until the dough forms a ball, then process for 1 minute to knead.
+Transfer the dough to a lightly floured surface. Cover with plastic wrap and let rest for 10 to 15 minutes.
+</p>
+TIPS & NOTES<br>
+Make Ahead Tip: The dough can be made ahead, enclosed in a plastic bag and stored in the refrigerator overnight. Bring to room temperature before using.<br>
+
+<p>
+ <strong>Whole-Wheat Pizza Dough</strong>    </p>
+
+<p>INGREDIENTS
+for 12 OUNCES DOUGH:</p>
+3/4 cup whole-wheat flour<br>
+3/4 cup all-purpose flour<br>
+1 package quick-rising yeast<br>
+3/4 teaspoon salt<br>
+1/4 teaspoon sugar<br>
+1/2-2/3 cup hot water, (120-130°F)<br>
+2 teaspoons extra-virgin olive oil<br>
+
+<p>TO MAKE 1 POUND DOUGH:</p>
+1 cup whole-wheat flour<br>
+1 cup all-purpose flour<br>
+1 package quick-rising yeast<br>
+1 teaspoon salt<br>
+1/2 teaspoon sugar<br>
+3/4 cup hot water, (120-130°F)<br>
+1 tablespoon extra-virgin olive oil<br>
+
+<p>PREPARATION</p>
+Combine whole-wheat flour, all-purpose flour, yeast, salt and sugar in a food processor; pulse to mix. Combine hot water and oil in a measuring cup. With the motor running, gradually pour in enough of the hot liquid until the mixture forms a sticky ball. The dough should be quite soft. If it seems dry, add 1 to 2 tablespoons warm water; if too sticky, add 1 to 2 tablespoons flour. Process until the dough forms a ball, then process for 1 minute to knead.
+<p>
+Transfer the dough to a lightly floured surface. Coat a sheet of plastic wrap with cooking spray and place it, sprayed-side down, over the dough. Let the dough rest for 10 to 20 minutes before rolling.
+Place a pizza stone or inverted baking sheet on the lowest oven rack; preheat oven to 500°F or highest setting. Roll and top the pizza as desired (we suggest a 13-inch circle) and bake the pizza until the bottom is crisp and golden, 10 to 14 minutes. Serve immediately.</p>
+
+TIPS & NOTES<br>
+Make Ahead Tip: Store in a plastic bag coated with cooking spray in the refrigerator for up to 2 days. Bring to room temperature before using.<br>
+
+
+<p>
+<strong>Home made Pizza Dough:</strong></p>
+1/2 cup warm water (105 to 110 degrees F)<br>
+2 teaspoons active dry yeast<br>
+2 cups all-purpose flour, plus more for kneading<br>
+1 teaspoon salt<br>
+3 tablespoons olive oil, plus more for bowl<br>
+Mix the warm water and yeast in a small bowl to blend. Let stand until the yeast dissolves, about 5 minutes. Mix the flour and salt in a food processor to blend. Blend in the oil. With the machine running, add the yeast mixture and blend just until the dough forms. Turn the dough out onto lightly floured surface and knead until smooth, about 1 minute. Transfer the dough to a large oiled bowl and turn the dough to coat with the oil. Cover the bowl with plastic wrap and set aside in a warm draft-free area until the dough doubles in volume, about 1 hour. Punch the down dough and form into ball. The dough can be used immediately or stored airtight in the refrigerator for 1 day.
+
+
+<p><strong>White Bean Puree</strong></p>
+INGREDIENTS<br>
+3/4 cup water<br>
+1 clove garlic, cut in half<br>
+1 15-ounce can cannellini or Great Northern beans, rinsed<br>
+1/2 teaspoon extra-virgin olive oil<br>
+1 teaspoon finely chopped fresh sage, or 1/4 teaspoon dried rubbed sage<br>
+Salt & freshly ground pepper to taste<br>
+
+<p>PREPARATION</p>
+Pour water into a saucepan, add garlic and bring to a boil over high heat. Add beans and return to a boil. Drain the beans and garlic, reserving 1/4 cup of the cooking liquid.
+
+<p>
+Transfer the beans and garlic to a food processor. Add oil and process, adding just enough of the reserved cooking liquid to make a thick, smooth paste. Stir in sage and season to taste with salt and pepper.<p>
+
+
+
+
+</div><!-- /content -->
+<div data-role="footer" class="nav-glyphish-example" data-id="foo1" data-position="inline">
+		<div data-role="navbar" class="nav-glyphish-example" data-grid="c">
+<ul>
+<li><a href="#menu"   id="home" data-icon="custom" data-theme="c">Menu</a></li>
+<li><a href="#info" id="history" data-icon="custom" data-theme="c">About</a></li>
+<li><a href="#tips" id="tips" data-icon="custom" data-theme="c">Dough</a></li>
+<li><a href="#menu" id="stuff" data-icon="custom" data-theme="c">Next</a></li>
+</ul>
+		</div>
+	
+	</div>
+</div><!-- /page tips -->
+
+
+
+<div data-role="page" id="page1" data-add-back-btn="true"><!-- page 1-->
+
+	<div data-role="header" data-theme="a">
+		<h1>Desert Pizza</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="a">
+	<strong>Apple Pizza</strong>
+	<div class="ui-grid-solo">
+	<div class="ui-block-a">
+<!-- <div id="image"><img src="images/r18.jpg"></div> -->
+
+<a href="#popupNYC" data-rel="popup" data-position-to="window">
+<img class="popphoto" src="images/r18.jpg" alt="Apple Pizza" style="float:right; padding:10px; width:35px height:35px"></a>
+
+<div data-role="popup" id="popupNYC" data-overlay-theme="a" data-theme="d" data-corners="true">
+					<a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="images/r18.jpg" style="style="max-width:100%;" alt="Apple Pizza">
+				</div>
+
+</div>
+</div><!-- /ui-grid-solo -->
+
+	<div class="ui-grid-solo">
+	<div class="ui-block-a">
+	<p><strong>Ingredients:</strong></p>
+
+12-ounce pizza dough<br>
+3 large apples, sliced thin<br>
+1 cup apple juice<br>
+1 tbsp cornstarch<br>
+1/2 tsp cinnamon<br>
+2 tbsp honey<br>
+1/4 cup chopped pecans<br>
+1 cup white cheddar cheese<br>
+</div>
+	</div><!-- /ui-grid-solo -->
+
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"><p><strong>Directions:</strong></p>
+	Pre-heat oven to 425 degrees.
+Lightly coat a 14-inch pizza pan with cooking spray. Press dough into pizza pan.
+
+Cook apples in apple juice until tender. Drain off juice and reserve.
+
+Place apple slices on dough.
+
+Dissolve cornstarch in apple juice, cinnamon, and honey. Cook over medium heat until clear. Spread sauce over apples.
+
+Sprinkle pecans on top. Top with cheese.
+	</div><!-- /grid-solo -->
+</div>
+	</div><!-- /content -->
+
+	<div data-role="footer" class="nav-glyphish-example" data-id="foo1" data-position="fixed">
+		<div data-role="navbar" class="nav-glyphish-example" data-grid="c">
+<ul>
+<li><a href="#menu" id="home" data-icon="custom" data-theme="c">All</a></li>
+<li><a href="#info" id="history" data-icon="custom" data-theme="c">About</a></li>
+<li><a href="#tips" id="tips" data-icon="custom" data-theme="c">Howtos</a></li>
+<li><a href="#page2" id="stuff" data-icon="custom" data-theme="c">Next</a></li>
+</ul>
+		</div>
+	
+	</div>
+</div><!-- /page 1 -->
+
+
+
+<div data-role="page" id="page2" data-add-back-btn="true"><!-- page 2 -->
+
+	<div data-role="header" data-theme="a" data-position="inline">
+		<h1>Main Dish Pizza</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="a">
+	<strong>Arugula Pizza with Poached Eggs</strong>
+	<div class="ui-grid-solo">
+	<div class="ui-block-a">
+<!-- <div id="image"><img src="images/r42.jpg"></div> -->
+</div>
+<a href="#popupNYC" data-rel="popup" data-position-to="window">
+<img class="popphoto" src="images/r42.jpg" alt="Apple Pizza" style="float:right; padding:10px; width:35px height:35px"></a>
+
+<div data-role="popup" id="popupNYC" data-overlay-theme="a" data-theme="d" data-corners="true">
+					<a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="images/r42.jpg" style="style="max-width:100%;" alt="Apple Pizza">
+				</div>
+
+</div><!-- /ui-grid-solo -->
+
+	<div class="ui-grid-solo">
+	<div class="ui-block-a">
+	<p><strong>Ingredients:</strong></p>
+
+11-ounce pizza dough <br>
+Cooking spray<br>
+1/2 cup part-skim ricotta cheese<br>
+1/2 cup (2 ounces) shaved fresh Romano cheese, divided<br>
+1 tablespoon white vinegar<br>
+6 large eggs <br>
+1 (5-ounce) package baby arugula<br>
+4 teaspoons extra-virgin olive oil<br>
+1/2 teaspoon grated fresh lemon rind<br>
+1 tablespoon fresh lemon juice<br>
+1/8 teaspoon salt<br>
+1/4 teaspoon freshly ground black pepper <br></div>
+	</div><!-- /grid-a -->
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"><p><strong>Directions:</strong></p>
+Preheat oven to 450°.
+<p>
+Unroll pizza dough on a baking sheet lightly coated with cooking spray; place in preheating oven. Bake as oven heats for 7 minutes.</p>
+
+Combine the ricotta and 1/4 cup Romano. Remove pan from oven. Quickly spread cheese mixture over dough, leaving a 1/2-inch border around the edges. Return pan to oven, and bake for 5 minutes.
+<p>
+While pizza bakes, add water to a large skillet, filling two-thirds full; bring to a boil. Reduce heat; simmer. Add vinegar. Break each egg into a custard cup, and pour gently into pan. Cook 3 minutes or until desired degree of doneness. Carefully remove eggs from pan using a slotted spoon.</p>
+
+Combine arugula, remaining 1/4 cup Romano cheese, and the next 4 ingredients (through salt) in a large bowl; toss well. Top pizza with arugula mixture and eggs; sprinkle with pepper. Cut into 6 pieces.
+	</div><!-- /grid-solo -->
+</div>
+	</div><!-- /content -->
+
+	<div data-role="footer" class="nav-glyphish-example" data-id="foo1" data-position="fixed">
+		<div data-role="navbar" class="nav-glyphish-example" data-grid="c">
+<ul>
+<li><a href="#menu"   id="home" data-icon="custom" data-theme="c">Menu</a></li>
+<li><a href="#info" id="history" data-icon="custom" data-theme="c">About</a></li>
+<li><a href="#tips" id="tips" data-icon="custom" data-theme="c">Dough</a></li>
+<li><a href="#page3" id="stuff" data-icon="custom" data-theme="c">Next</a></li>
+</ul>
+		</div>
+	
+	</div>
+</div><!-- /page 2-->
+
+
+
+<div data-role="page" id="page3" data-add-back-btn="true"><!-- page 3 -->
+
+	<div data-role="header" data-theme="a" data-position="inline">
+		<h1>Sweet Pizza</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="a">
+	<p><strong>Banana Brownie Pizza</strong></p>
+	<div class="ui-grid-solo">
+	<div class="ui-block-a">
+<!-- <div id="image"><img src="images/r31.jpg"></div> -->
+
+<a href="#popupNYC" data-rel="popup" data-position-to="window">
+<img class="popphoto" src="images/r31.jpg" alt="Apple Pizza" style="float:right; padding:10px; width:35px height:35px"></a>
+
+<div data-role="popup" id="popupNYC" data-overlay-theme="a" data-theme="d" data-corners="true">
+					<a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="images/r31.jpg" style="style="max-width:100%;" alt="Apple Pizza">
+				</div>
+
+</div>
+</div><!-- /ui-grid-solo -->
+
+	<div class="ui-grid-solo">
+	<div class="ui-block-a">
+	<strong>Ingredients:</strong><br><br>
+
+1 (20-ounce) box fudge brownie mix <br>
+1 (8-ounce) package cream cheese, softened<br>
+1 (8-ounce) can crushed pineapple, drained, juice reserved<br>
+2 tablespoons sugar<br>
+2 bananas, sliced and tossed in lemon juice to prevent browning<br>
+1 cup fresh strawberries, sliced<br>
+1 cup chopped nuts<br>
+Chocolate ice cream topping or chocolate syrup, for drizzling<br></div>
+	</div><!-- /grid-a -->
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"><p><strong>Directions:</strong></p>
+	Preheat oven to 350 degrees F.
+<p>
+Grease a 15-inch pizza pan. Prepare the brownie mix according to box directions. Pour into the prepared pan. Bake for 20 minutes, or until done. Remove from the oven and cool. </p>
+
+Beat the cream cheese, pineapple, and sugar together in a bowl. Use any reserved pineapple juice at this time, if needed, to soften the mixture to a good spreading consistency. Otherwise dispose of or save the juice for another use. 
+<p>
+Spread the mixture over the cooled brownie crust. Arrange the banana and strawberry slices over the cream cheese mixture. Sprinkle with the chopped nuts and drizzle with chocolate ice cream topping. Refrigerate. To serve, slice as you would a pizza, and enjoy!
+	</div><!-- /grid-solo -->
+</div>
+	</div><!-- /content -->
+
+	<div data-role="footer" class="nav-glyphish-example" data-id="foo1" data-position="fixed">
+		<div data-role="navbar" class="nav-glyphish-example" data-grid="c">
+<ul>
+<li><a href="#menu"   id="home" data-icon="custom" data-theme="c">Menu</a></li>
+<li><a href="#info" id="history" data-icon="custom" data-theme="c">About</a></li>
+<li><a href="#tips" id="tips" data-icon="custom" data-theme="c">Dough</a></li>
+<li><a href="#page4" id="stuff" data-icon="custom" data-theme="c">Next</a></li>
+</ul>
+		</div>
+	
+	</div>
+</div><!-- /page 3 -->
+
+
+
+<div data-role="page" id="page4" data-add-back-btn="true"><!-- page 4 -->
+<div data-role="header" data-theme="a" data-position="inline">
+		<h1>Main Dish Pizza</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="a">
+	<p><strong>Black Bean Nacho Pizza</strong></p>
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"> 
+<!-- <div id="image"><img src="images/r3.jpg"></div> -->
+
+
+<a href="#popupNYC" data-rel="popup" data-position-to="window">
+<img class="popphoto" src="images/r3.jpg" alt="Apple Pizza" style="float:right; padding:10px; width:35px height:35px"></a>
+
+<div data-role="popup" id="popupNYC" data-overlay-theme="a" data-theme="d" data-corners="true">
+					<a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="images/r3.jpg" style="style="max-width:100%;" alt="Apple Pizza">
+				</div>
+
+</div>
+</div><!-- /ui-grid-solo -->
+
+	<div class="ui-grid-solo">
+	<div class="ui-block-a">
+	<strong>Ingredients:</strong><br><br>
+6 servings<br><br>
+EASY WHOLE-WHEAT PIZZA DOUGH<br>
+3/4 cup plus 2 tablespoons lukewarm water (105-115°F)<br>
+1 package active dry yeast (2 1/4 teaspoons)<br>
+1 teaspoon sugar<br>
+1/2 teaspoon salt<br>
+1 cup whole-wheat flour<br>
+1 cup bread flour or all-purpose flour, plus additional for dusting<br>
+2 tablespoons yellow cornmeal<br><br>
+TOPPING<br>
+1 cup canned black beans, rinsed<br>
+1/2 cup chopped jarred roasted red peppers<br>
+1 medium clove garlic, quartered<br>
+1 tablespoon chili powder<br>
+1/4 teaspoon salt<br>
+Yellow cornmeal, for dusting<br>
+1 cup shredded Monterey Jack cheese<br>
+2 medium plum tomatoes, diced<br>
+4 medium scallions, thinly sliced<br>
+1/4 cup chopped pitted ripe black olives<br>
+2 tablespoons chopped pickled jalapeños<br> </div>
+	</div><!-- /grid-a -->
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"><p><strong>Directions:</strong></p>
+	For the dough: 
+<p>Take one of the recipes for pizza dough from the HOWTOS</p>
+Place the dough in an oiled bowl and turn to coat. Cover with a clean kitchen towel and set aside in a warm, draft-free place until doubled in size, about 1 hour.
+When you’re ready to make your pizza, turn the dough out onto a lightly floured surface. Dust the top with flour; dimple with your fingertips to shape into a thick, flattened circle—don’t worry if it’s not perfectly symmetrical. Then use a rolling pin to roll into a circle about 14 inches in diameter.
+<p>
+Preheat grill to low. (For an oven variation, see below.)</p>
+
+To prepare topping & assemble pizza: Place beans, peppers, garlic, chili powder and salt in a food processor and process until smooth, scraping down the sides as needed.
+Sprinkle cornmeal onto a pizza peel or large baking sheet. Roll out the dough (see Tip) and transfer it to the prepared peel or baking sheet, making sure the underside of the dough is completely coated with cornmeal.
+<p>
+Slide the crust onto the grill rack; close the lid. Cook until lightly browned, 3 to 4 minutes.
+Using a large spatula, flip the crust. Spread the bean mixture on the crust, leaving a 1-inch border. Quickly layer on cheese, tomatoes, scallions, olives and pickled jalapeños.
+Close the lid again and grill until the cheese has melted and the bottom of the crust has browned, about 8 minutes.</p>
+
+<p><strong>Variations:</strong></p>
+Pizza on a charcoal grill: <br>
+Light 6 quarts (about 1 large chimney starter full) of charcoal and burn until the coals are mostly white, about 20 minutes. Spread the coals in an even layer. Place a grate over the coals. Let the coals burn until they are about medium-low. (Grill any toppings for the pizza while the coals are burning down.) To test the heat, hold your palm about 5 inches above the grill rack; if you can hold it there for about 8 seconds before you need to move it away, the fire is medium-low. Transfer the crust to the grill rack, cover the grill and cook the crust, checking once or twice, until lightly browned, 3 to 4 minutes. Flip the crust, quickly add the toppings, cover the grill and cook until the toppings are hot and the bottom of the crust has browned, 5 to 8 minutes. If your crust browns faster than your toppings are cooking, slide a baking sheet under the pizza to keep the crust from burning while the toppings finish.
+<p>
+Pizza in the oven:<br>
+ Place a pizza stone on the lowest rack; preheat oven to 450°F for at least 20 minutes. Roll out the dough and place on a cornmeal-dusted pizza peel or inverted baking sheet, using enough cornmeal so that the dough slides easily. Slide the dough onto the preheated stone and cook until the bottom begins to crisp, about 3 minutes. Remove the crust from the oven using a large spatula and place it uncooked-side down on the peel or baking sheet, making sure the underside of the crust is completely coated with cornmeal. Quickly add the toppings and slide the pizza back onto the stone. Continue baking until the toppings are hot and the bottom of the crust has browned, 12 to 15 minutes.</p>
+Individual variation: The dough can be turned into 4 or 6 personal-size pizzas. After kneading, divide the dough into 4 or 6 equal balls. Brush with oil and place 3 inches apart on a baking sheet. Cover and set aside until doubled in size, about 1 hour. Roll each portion into a 6-to-8-inch circle.
+	</div><!-- /grid-solo -->
+</div>
+	</div><!-- /content -->
+
+	<div data-role="footer" class="nav-glyphish-example" data-id="foo1" data-position="fixed">
+		<div data-role="navbar" class="nav-glyphish-example" data-grid="c">
+<ul>
+<li><a href="#menu"   id="home" data-icon="custom" data-theme="c">Menu</a></li>
+<li><a href="#info" id="history" data-icon="custom" data-theme="c">About</a></li>
+<li><a href="#tips" id="tips" data-icon="custom" data-theme="c">Dough</a></li>
+<li><a href="#page5" id="stuff" data-icon="custom" data-theme="c">Next</a></li>
+</ul>
+		</div>
+	
+	</div>
+</div><!-- /page 4 -->
+
+
+
+<div data-role="page" id="page5" data-add-back-btn="true"><!-- page 5 -->
+
+	<div data-role="header" data-theme="a" data-position="inline">
+		<h1>Sweet Pizza</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="a">
+	<p><strong>Breakfeast Pizza</strong></p>
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"> 
+<!--<div id="image"><img src="images/r30.jpg"></div> -->
+
+<a href="#popupNYC" data-rel="popup" data-position-to="window">
+<img class="popphoto" src="images/r30.jpg" alt="Apple Pizza" style="float:right; padding:10px; width:35px height:35px"></a>
+
+<div data-role="popup" id="popupNYC" data-overlay-theme="a" data-theme="d" data-corners="true">
+					<a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="images/r30.jpg" style="style="max-width:100%;" alt="Apple Pizza">
+				</div>
+
+</div>
+</div><!-- /ui-grid-solo -->
+
+	<div class="ui-grid-solo">
+	<div class="ui-block-a">
+	<strong>Ingredients:</strong><br><br>
+
+1 storebought pizza dough<br>
+2 tablespoons butter, melted<br>
+4 tablespoons Cinnamon-Sugar, divided, recipe follows<br>
+2 cups mascarpone cheese<br>
+1 tablespoon heavy cream<br>
+2 tablespoons lemon juice<br>
+1 teaspoon lemon zest (from 1 lemon)<br>
+2 cups mixed berries<br> </div>
+	</div><!-- /grid-a -->
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"><p><strong>Directions:</strong></p>
+	<p>Preheat the oven to 350 degrees F. Line a baking sheet with parchment paper.</p>
+
+Using a rolling pin, roll out the pizza dough to a thickness of about 1/4 inch. Transfer the pizza dough to the lined baking sheet and brush the dough with the melted butter. Sprinkle with 2 tablespoons Cinnamon-Sugar and bake until golden brown, about 10 to 15 minutes. Cool the pizza crust on a wire rack.
+<p>
+Meanwhile, in a medium bowl, mix together the cheese, cream, lemon juice, and zest.</p>
+
+Spread the cheese mixture over the cooled crust. Top with mixed berries and sprinkle with the remaining Cinnamon-Sugar. Slice like a pizza and serve.
+<p>
+<strong>Cinnamon-Sugar:</strong><br>
+1 vanilla bean<br>
+1/2 cup sugar<br>
+1 tablespoon ground cinnamon<br>
+<p>
+Cut the vanilla bean in half, lengthwise. Using the back of a knife, scrape along the inside of the vanilla bean to collect the seeds. Scrape vanilla bean seeds into a small bowl. Add sugar and cinnamon and stir to combine. Set aside in a small serving bowl.
+
+</div><!-- /grid-solo -->
+</div>
+	</div><!-- /content -->
+
+	<div data-role="footer" class="nav-glyphish-example" data-id="foo1" data-position="fixed">
+		<div data-role="navbar" class="nav-glyphish-example" data-grid="c">
+<ul>
+<li><a href="#menu"   id="home" data-icon="custom" data-theme="c">Menu</a></li>
+<li><a href="#info" id="history" data-icon="custom" data-theme="c">About</a></li>
+<li><a href="#tips" id="tips" data-icon="custom" data-theme="c">Dough</a></li>
+<li><a href="#page6" id="stuff" data-icon="custom" data-theme="c">Next</a></li>
+</ul>
+		</div>
+	
+	</div>
+</div><!-- /page 5 -->
+
+
+<div data-role="page" id="page6" data-add-back-btn="true"><!-- page 6 -->
+
+	<div data-role="header" data-theme="a" data-position="inline">
+		<h1>Sweet Pizza</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="a">
+	<p><strong>Brownie Marchmellows Pizza</strong></p>
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"> 
+<!-- <div id="image"><img src="images/r32.jpg"></div> -->
+
+<a href="#popupNYC" data-rel="popup" data-position-to="window">
+<img class="popphoto" src="images/r32.jpg" alt="Apple Pizza" style="float:right; padding:10px; width:35px height:35px"></a>
+
+<div data-role="popup" id="popupNYC" data-overlay-theme="a" data-theme="d" data-corners="true">
+					<a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="images/r32.jpg" style="style="max-width:100%;" alt="Apple Pizza">
+				</div>
+
+</div>
+</div><!-- /ui-grid-solo -->
+
+	<div class="ui-grid-solo">
+	<div class="ui-block-a">
+	<strong>Ingredients:</strong><br><br>
+
+	servings 6-8<br>
+
+1 (20-ounce) box fudge brownie mix<br>
+1 (8-ounce) package cream cheese, softened<br>
+1 (8-ounce) can crushed pineapple, drained<br>
+2 tablespoons sugar<br>
+2 banana, sliced<br>
+1 cup fresh strawberries sliced<br>
+Marshmallows<br>
+Maraschino cherries<br>
+1 cup chopped nuts<br>
+Coconut<br>
+Chocolate syrup, for drizzling<br>
+Whipped cream<br>
+Mint, for garnish<br> </div>
+	</div><!-- /grid-a -->
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"><p><strong>Directions:</strong></p>
+	<p>Preheat oven to 350 degrees F. Grease a 15-inch pizza pan.</p>
+
+Prepare brownie mix according to directions on box. Pour onto prepared pan. Bake for 20 minutes or until done. Remove from oven and cool.
+<p>
+Beat cream cheese while adding pineapple and sugar together in a bowl. Spread mixture over brownie crust. Arrange banana, strawberry slices, marshmallows, and cherries over cream cheese mixture. Sprinkle with nuts and coconut. Drizzle with chocolate syrup. Add whipped cream on top and mint for garnish. To serve, slice as you would a pizza and enjoy!</p>
+</div><!-- /grid-solo -->
+</div>
+	</div><!-- /content -->
+
+	<div data-role="footer" class="nav-glyphish-example" data-id="foo1" data-position="fixed">
+		<div data-role="navbar" class="nav-glyphish-example" data-grid="c">
+<ul>
+<li><a href="#menu"   id="home" data-icon="custom" data-theme="c">Menu</a></li>
+<li><a href="#info" id="history" data-icon="custom" data-theme="c">About</a></li>
+<li><a href="#tips" id="tips" data-icon="custom" data-theme="c">Dough</a></li>
+<li><a href="#page7" id="stuff" data-icon="custom" data-theme="c">Next</a></li>
+</ul>
+		</div>
+	
+	</div>
+</div><!-- /page 6 -->
+
+
+<div data-role="page" id="page7" data-add-back-btn="true"><!-- page 7-->
+
+	<div data-role="header" data-theme="a" data-position="inline">
+		<h1>Main Dish Pizza</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="a">
+	<p><strong>Cabbage Pizza</strong></p>
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"> 
+<!-- <div id="image"><img src="images/r46.jpg"></div> -->
+
+<a href="#popupNYC" data-rel="popup" data-position-to="window">
+<img class="popphoto" src="images/r46.jpg" alt="Apple Pizza" style="float:right; padding:10px; width:35px height:35px"></a>
+
+<div data-role="popup" id="popupNYC" data-overlay-theme="a" data-theme="d" data-corners="true">
+					<a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="images/r46.jpg" style="style="max-width:100%;" alt="Apple Pizza">
+				</div>
+
+</div>
+</div><!-- /ui-grid-solo -->
+
+	<div class="ui-grid-solo">
+	<div class="ui-block-a">
+	<strong>Ingredients:</strong><br><br>
+
+	Makes 2 medium pizzas.<br>
+<p><strong>Dough</strong></p>
+2 3/4 cups All Purpose flour<br>
+1 cup lukewarm water<br>
+1 tablespoon dry active yeast<br>
+3 tablespoons olive oil<br>
+1 teaspoon salt<br>
+1/2 teaspoon sugar<br>
+
+<p><strong>White Sauce</strong></p>
+2 tablespoons olive oil<br>
+2 1/2 tablespoons All Purpose flour<br>
+3/4 cup milk<br>
+1 teaspoon salt<br>
+1/2 teaspoon black pepper<br>
+ Cabbage Topping<br>
+3 cups sliced cabbage<br>
+1/2 thinly sliced red bell pepper<br>
+2 tablespoons chopped green coriander<br>
+2 chopped green chilies
+</div>
+	</div><!-- /grid-a -->
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"><p><strong>Directions:</strong></p>
+	<strong>Dough:</strong><br>
+
+Dissolve yeast in lukewarm water and let it sit for about 20 minutes or until the yeast becomes frothy.
+Add sugar, salt and oil to the flour and mix well.
+Add the yeast water and make into a dough. The dough should be soft and a little sticky. Add more water if needed.
+Cover the dough and let it sit for about four hours. The dough should be double in volume.
+Knead the dough well using a little dry flour.<br><br>
+White Sauce:<br>
+
+Heat the oil in a small heavy saucepan over low-medium heat.
+Add the flour and cook until the flour changes into a light brown color.
+Slowly add the milk, stirring constantly. Continue cooking slowly until it is smooth and thick. Add the salt and black pepper.<br><br>
+Cabbage Topping:<br>
+
+Mix the cabbage, bell pepper, cilantro, and green chilies with the white sauce.<br><br>
+
+<strong>Pizza:</strong><br>
+
+Pre-heat the oven to 500 degrees, placing a pizza stone inside for about 30 minutes so the pizza stone will be hot.
+Divide the dough in to two equal parts and roll into two 8 inch diameter pizzas.
+Place over greased cookie sheets. Put about a half teaspoon of olive oil over the pizza. Evenly spread the cabbage mixture onto the pizza.
+Slide the cookie sheet on the pizza stone and let it cook for about five minutes.
+To make a crispy pizza crust, remove the pizza from the cookie sheet and place over the pizza stone.
+Let it cook for about 7 minutes, or until the edges are golden-brown.
+	</div><!-- /grid-solo -->
+</div>
+	</div><!-- /content -->
+
+	<div data-role="footer" class="nav-glyphish-example" data-id="foo1" data-position="fixed">
+		<div data-role="navbar" class="nav-glyphish-example" data-grid="c">
+<ul>
+<li><a href="#menu"   id="home" data-icon="custom" data-theme="c">Menu</a></li>
+<li><a href="#info" id="history" data-icon="custom" data-theme="c">About</a></li>
+<li><a href="#tips" id="tips" data-icon="custom" data-theme="c">Dough</a></li>
+<li><a href="#page8" id="stuff" data-icon="custom" data-theme="c">Next</a></li>
+</ul>
+		</div>
+	
+	</div>
+</div><!-- /page 7 -->
+
+
+<div data-role="page" id="page8" data-add-back-btn="true"><!-- page 8-->
+
+	<div data-role="header" data-theme="a" data-position="inline">
+		<h1>Main Dish Pizza</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="a">
+	<p><strong>Caramelized Onion Pizza</strong></p>
+	<div class="ui-grid-solo">
+<div class="ui-block-a"> 
+<!-- <div id="image"><img src="images/r10.jpg"></div> -->
+
+<a href="#popupNYC" data-rel="popup" data-position-to="window">
+<img class="popphoto" src="images/r10.jpg" alt="Apple Pizza" style="float:right; padding:10px; width:35px height:35px"></a>
+
+<div data-role="popup" id="popupNYC" data-overlay-theme="a" data-theme="d" data-corners="true">
+					<a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="images/r10.jpg" style="style="max-width:100%;" alt="Apple Pizza">
+				</div>
+
+</div>
+</div><!-- /ui-grid-solo -->
+
+	<div class="ui-grid-solo">
+	<div class="ui-block-a">
+	<strong>Ingredients:</strong><br><br>
+6 servings<br>
+
+3 tablespoons extra-virgin olive oil<br>
+1 large onion, thinly sliced lengthwise<br>
+1/4 teaspoon salt<br>
+20 ounces whole-wheat pizza dough<br>
+2 tablespoons minced fresh oregano, or 2 teaspoons dried<br>
+1/2 teaspoon freshly ground pepper<br>
+1 15-ounce can white beans, rinsed<br>
+3 tablespoons water<br>
+2 teaspoons white-wine vinegar<br>
+2 plum tomatoes, thinly sliced<br>
+1 cup finely shredded smoked Gouda, or Cheddar cheese<br>
+2 tablespoons pepitas<br>
+</div>
+	</div><!-- /grid-a -->
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"><p><strong>Directions:</strong></p>
+	<p>Place oven rack in the lowest position; preheat to 450°F. Coat a large noninsulated baking sheet with cooking spray.</p>
+Combine oil, onion and salt in a medium saucepan. Cover and cook over medium-high heat, stirring often, until the onion is softened, 5 to 7 minutes. Reduce heat to medium-low, uncover and cook, stirring occasionally, until very soft and golden, 5 to 8 minutes more.
+Meanwhile, roll out dough on a lightly floured surface to the size of the baking sheet. Transfer to the baking sheet. Bake until puffed and lightly crisped on the bottom, 8 to 10 minutes.
+<p>
+Stir oregano and pepper into the onion. Transfer half the onion to a small bowl. Add beans to the remaining onion; cook over medium heat, stirring often, until heated through, 2 to 3 minutes. Transfer the bean mixture to a food processor, add water and vinegar and pulse until a coarse paste forms.</p>
+Spread the bean paste over the pizza crust. Top with the reserved onion, tomatoes, cheese and pepitas, if using. Bake on the bottom rack until the crust is crispy and golden and the cheese is melted, 11 to 13 minutes. Slice and serve.
+	</div><!-- /grid-solo -->
+</div>
+	</div><!-- /content -->
+
+	<div data-role="footer" class="nav-glyphish-example" data-id="foo1" data-position="fixed">
+		<div data-role="navbar" class="nav-glyphish-example" data-grid="c">
+<ul>
+<li><a href="#menu"   id="home" data-icon="custom" data-theme="c">Menu</a></li>
+<li><a href="#info" id="history" data-icon="custom" data-theme="c">About</a></li>
+<li><a href="#tips" id="tips" data-icon="custom" data-theme="c">Dough</a></li>
+<li><a href="#page9" id="stuff" data-icon="custom" data-theme="c">Next</a></li>
+</ul>
+		</div>
+	
+	</div>
+</div><!-- /page 8 -->
+
+
+<div data-role="page" id="page9" data-add-back-btn="true"><!-- page 9 -->
+
+	<div data-role="header" data-theme="a" data-position="inline">
+		<h1>Sweet Pizza</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="a">
+	<p><strong>Chocolate Pizza</strong></p>
+	<div class="ui-grid-solo">
+<div class="ui-block-a"> 
+<!-- <div id="image"><img src="images/r29.jpg"></div> -->
+
+<a href="#popupNYC" data-rel="popup" data-position-to="window">
+<img class="popphoto" src="images/r29.jpg" alt="Apple Pizza" style="float:right; padding:10px; width:35px height:35px"></a>
+
+<div data-role="popup" id="popupNYC" data-overlay-theme="a" data-theme="d" data-corners="true">
+					<a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="images/r29.jpg" style="style="max-width:100%;" alt="Apple Pizza">
+				</div>
+
+</div>
+</div><!-- /ui-grid-solo -->
+
+	<div class="ui-grid-solo">
+	<div class="ui-block-a">
+	<strong>Ingredients:</strong><br><br>
+
+	servings 6<br>
+1 pound homemade pizza dough<br>
+2 teaspoons butter, melted<br>
+1/4 cup chocolate-hazelnut spread (Nutella)<br>
+1/2 cup semisweet chocolate chips<br>
+2 tablespoons milk chocolate chips<br>
+2 tablespoons white chocolate chips<br>
+2 tablespoons chopped hazelnuts, toasted<br>
+ </div>
+	</div><!-- /grid-a -->
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"><p><strong>Directions:</strong></p>
+	<p>Position the oven rack on the bottom of the oven and preheat to 450 degrees F.</p>
+
+Line a heavy large baking sheet with parchment paper. Roll out the dough to a 9-inch-diameter round. Transfer the dough to the prepared baking sheet. Using your fingers, make indentations all over the dough. Brush the dough with butter, then bake until the crust is crisp and pale golden brown, about 20 minutes. Immediately spread the chocolate-hazelnut spread over the pizza then sprinkle all the chocolate chips over. Bake just until the chocolate begins to melt, about 1 minute. Sprinkle the hazelnuts over the pizza. Cut into wedges and serve.
+
+
+</div><!-- /grid-solo -->
+</div>
+	</div><!-- /content -->
+
+	<div data-role="footer" class="nav-glyphish-example" data-id="foo1" data-position="fixed">
+		<div data-role="navbar" class="nav-glyphish-example" data-grid="c">
+<ul>
+<li><a href="#menu"   id="home" data-icon="custom" data-theme="c">Menu</a></li>
+<li><a href="#info" id="history" data-icon="custom" data-theme="c">About</a></li>
+<li><a href="#tips" id="tips" data-icon="custom" data-theme="c">Dough</a></li>
+<li><a href="#page10" id="stuff" data-icon="custom" data-theme="c">Next</a></li>
+</ul>
+		</div>
+	
+	</div>
+</div><!-- /page 9 -->
+
+
+
+<div data-role="page" id="page10" data-add-back-btn="true"><!-- page 1-->
+
+	<div data-role="header" data-theme="a" data-position="inline">
+		<h1>Sweet Pizza</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="a">
+	<p><strong>Chream Cheese Pizza</strong></p>
+	<div class="ui-grid-solo">
+<div class="ui-block-a"> 
+<!-- <div id="image"><img src="images/r26.jpg"></div> -->
+
+<a href="#popupNYC" data-rel="popup" data-position-to="window">
+<img class="popphoto" src="images/r26.jpg" alt="Apple Pizza" style="float:right; padding:10px; width:35px height:35px"></a>
+
+<div data-role="popup" id="popupNYC" data-overlay-theme="a" data-theme="d" data-corners="true">
+					<a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="images/r26.jpg" style="style="max-width:100%;" alt="Apple Pizza">
+				</div>
+
+</div>
+</div><!-- /ui-grid-solo -->
+
+	<div class="ui-grid-solo">
+	<div class="ui-block-a">
+	<strong>Ingredients:</strong><br><br>
+
+1 18 -ounce package refrigerated sugar cookie dough<br>
+4 ounces reduced-fat cream cheese, softened<br>
+4 ounces frozen whipped topping, thawed<br>
+1 1/2 tsp sugar<br>
+1 16-ounce can sliced light peaches, drained (reserve juice)<br>
+7 large strawberries<br>
+1-2 kiwis<br>
+1 tbsp cornstarch<br>
+1/3 cup sugar<br>
+</div>
+	</div><!-- /grid-a -->
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"><p><strong>Directions:</strong></p>
+	<p>Pre-heat oven to 350 degrees.</p>
+Cut cookie dough into slices and arrange on a 12-inch pizza pan, coated with non-stick spray. Press slices together to form a solid crust. Bake 12 to 15 minutes until golden. Crust is done when edges begin to brown.
+<p>
+Beat cream cheese until smooth; add sugar and whipped topping. Spread evenly over cooled crust. Top with peach slices, strawberries, and kiwi.</p>
+
+Combine 1/2 cup reserved peach juice, 1/3 cup sugar and 1 tablespoon cornstarch. Cook until thick. Drizzle over pizza and chill.
+<p>
+Makes 8 servings of fruit dessert pizza.</p>
+	</div><!-- /grid-solo -->
+</div>
+	</div><!-- /content -->
+
+	<div data-role="footer" class="nav-glyphish-example" data-id="foo1" data-position="fixed">
+		<div data-role="navbar" class="nav-glyphish-example" data-grid="c">
+<ul>
+<li><a href="#menu"   id="home" data-icon="custom" data-theme="c">Menu</a></li>
+<li><a href="#info" id="history" data-icon="custom" data-theme="c">About</a></li>
+<li><a href="#tips" id="tips" data-icon="custom" data-theme="c">Dough</a></li>
+<li><a href="#page11" id="stuff" data-icon="custom" data-theme="c">Next</a></li>
+</ul>
+		</div>
+	
+	</div>
+</div><!-- /page 10 -->
+
+
+
+
+<div data-role="page" id="page11" data-add-back-btn="true"><!-- page 11-->
+
+	<div data-role="header" data-theme="a" data-position="inline">
+		<h1>Main Dish Pizza</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="a">
+	<p><strong>Chreamy Cheese Asparagus Pizza</strong></p>
+	<div class="ui-grid-solo">
+<div class="ui-block-a"> 
+<!-- <div id="image"><img src="images/r25.jpg"></div> -->
+
+<a href="#popupNYC" data-rel="popup" data-position-to="window">
+<img class="popphoto" src="images/r25.jpg" alt="Apple Pizza" style="float:right; padding:10px; width:35px height:35px"></a>
+
+<div data-role="popup" id="popupNYC" data-overlay-theme="a" data-theme="d" data-corners="true">
+					<a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="images/r25.jpg" style="style="max-width:100%;" alt="Apple Pizza">
+				</div>
+
+</div>
+</div><!-- /ui-grid-solo -->
+
+	<div class="ui-grid-solo">
+	<div class="ui-block-a">
+	<strong>Ingredients:</strong><br><br>
+
+24 oz pizza dough<br>
+cornmeal<br>
+olive oil<br>
+1 pound asparagus, 2-inch pieces<br>
+2 tbsp butter<br>
+2 tbsp flour<br>
+1 cup milk<br>
+pinch of cayenne<br>
+pinch of nutmeg<br>
+1/2 tsp salt<br>
+2/3 cup grated Parmesan<br>
+4 oz white cheddar cheese<br>
+</div>
+	</div><!-- /grid-a -->
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"><p><strong>Directions:</strong></p>
+<p>	Very lightly oil a round 16-inch pizza pan, or square 18 x 13-inch baking sheet, and dust with cornmeal. Stretch or roll pizza dough out to cover pan. </p>
+
+Melt the butter in a saucepan, and add the flour. Cook on medium-low heat for 3 minutes. Whisk in the cold milk, and bring to a simmer. Cook for 3 minutes, whisking occasionally, until the sauce thickens. Turn off heat and whisk in the salt, cayenne, nutmeg, and half the Parmesan. Let cool while you prep the asparagus. 
+<p>
+Blanch the asparagus for 1 minute in boiling salted water and rinse with cold water until completely cool. Drain well. Spread the white sauce evenly on the pizza dough. Top with the asparagus, and then the cheddar and remaining Parmesan. </p>
+
+Bake for 20 minutes at 450 degree F., or until the top is browned and the crust is cooked through. 
+
+	</div><!-- /grid-solo -->
+</div>
+	</div><!-- /content -->
+
+	<div data-role="footer" class="nav-glyphish-example" data-id="foo1" data-position="fixed">
+		<div data-role="navbar" class="nav-glyphish-example" data-grid="c">
+<ul>
+<li><a href="#menu"   id="home" data-icon="custom" data-theme="c">Menu</a></li>
+<li><a href="#info" id="history" data-icon="custom" data-theme="c">About</a></li>
+<li><a href="#tips" id="tips" data-icon="custom" data-theme="c">Dough</a></li>
+<li><a href="#page12" id="stuff" data-icon="custom" data-theme="c">Next</a></li>
+</ul>
+		</div>
+	
+	</div>
+</div><!-- /page 11 -->
+
+
+
+
+<div data-role="page" id="page12" data-add-back-btn="true"><!-- page 12 -->
+
+	<div data-role="header" data-theme="a" data-position="inline">
+		<h1>Main Dish Pizza</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="a">
+	<p><strong>Easy Crescent Veggi Pizza</strong></p>
+	<div class="ui-grid-solo">
+<div class="ui-block-a"> 
+<!-- <div id="image"><img src="images/r13.jpg"></div> -->
+
+<a href="#popupNYC" data-rel="popup" data-position-to="window">
+<img class="popphoto" src="images/r13.jpg" alt="Apple Pizza" style="float:right; padding:10px; width:35px height:35px"></a>
+
+<div data-role="popup" id="popupNYC" data-overlay-theme="a" data-theme="d" data-corners="true">
+					<a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="images/r13.jpg" style="style="max-width:100%;" alt="Apple Pizza">
+				</div>
+
+</div>
+</div><!-- /ui-grid-solo -->
+
+	<div class="ui-grid-solo">
+	<div class="ui-block-a">
+	<p><strong>Ingredients:</strong></p>
+
+	<p> 2 cans (8 oz each) Pillsbury® refrigerated crescent dinner rolls or 2 cans (8 oz each) Pillsbury® Place 'n Bake™ refrigerated crescent rounds or Pillsbury® Crescent Recipe Creations® refrigerated seamless dough sheet</p>
+1 package (8 oz) cream cheese, softened<br>
+1/2 cup sour cream<br>
+1 teaspoon dried dill weed<br>
+1/8 teaspoon garlic powder<br>
+1/2 cup small fresh broccoli florets<br>
+1/3 cup quartered cucumber slices<br>
+1 plum (Roma) tomato, seeded, chopped<br>
+1/4 cup shredded carrot<br>
+</div>
+	</div><!-- /grid-a -->
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"><p><strong>Directions:</strong></p>
+	<p>Heat oven to 375°F.</p>
+
+If using crescent rolls: Unroll both cans of dough; separate dough into 4 long rectangles. In ungreased 15x10x1-inch pan, place dough; press in bottom and up sides to form crust. If using dough sheets: Unroll both cans of dough. In ungreased 15x10x1-inch pan, place dough; press in bottom and up sides to form crust.
+<p>
+Bake 13 to 17 minutes or until golden brown. Cool completely, about 30 minutes.</p>
+
+In small bowl, mix cream cheese, sour cream, dill and garlic powder until smooth. Spread over crust. Top with vegetables. Serve immediately, or cover and refrigerate 1 to 2 hours before serving. Cut into 8 rows by 4 rows.<br>
+	</div><!-- /grid-solo -->
+</div>
+	</div><!-- /content -->
+
+	<div data-role="footer" class="nav-glyphish-example" data-id="foo1" data-position="fixed">
+		<div data-role="navbar" class="nav-glyphish-example" data-grid="c">
+<ul>
+<li><a href="#menu"   id="home" data-icon="custom" data-theme="c">Menu</a></li>
+<li><a href="#info" id="history" data-icon="custom" data-theme="c">About</a></li>
+<li><a href="#tips" id="tips" data-icon="custom" data-theme="c">Dough</a></li>
+<li><a href="#page13" id="stuff" data-icon="custom" data-theme="c">Next</a></li>
+</ul>
+		</div>
+	
+	</div>
+</div><!-- /page 12 -->
+
+
+
+<div data-role="page" id="page13" data-add-back-btn="true"><!-- page 13 -->
+
+	<div data-role="header" data-theme="a" data-position="inline">
+		<h1>Main Dish Pizza</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="a">
+	<p><strong>Easy Crescent Veggi Pizza</strong></p>
+	<div class="ui-grid-solo">
+<div class="ui-block-a"> 
+<!-- <div id="image"><img src="images/r13.jpg"></div> -->
+
+<a href="#popupNYC" data-rel="popup" data-position-to="window">
+<img class="popphoto" src="images/r13.jpg" alt="Apple Pizza" style="float:right; padding:10px; width:35px height:35px"></a>
+
+<div data-role="popup" id="popupNYC" data-overlay-theme="a" data-theme="d" data-corners="true">
+					<a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="images/r13.jpg" style="style="max-width:100%;" alt="Apple Pizza">
+				</div>
+
+</div>
+</div><!-- /ui-grid-solo -->
+
+	<div class="ui-grid-solo">
+	<div class="ui-block-a">
+	<p><strong>Ingredients:</strong></p>
+	<p> 2 cans (8 oz each) Pillsbury® refrigerated crescent dinner rolls or 2 cans (8 oz each) Pillsbury® Place 'n Bake™ refrigerated crescent rounds or Pillsbury® Crescent Recipe Creations® refrigerated seamless dough sheet</p>
+1 package (8 oz) cream cheese, softened<br>
+1/2 cup sour cream<br>
+1 teaspoon dried dill weed<br>
+1/8 teaspoon garlic powder<br>
+1/2 cup small fresh broccoli florets<br>
+1/3 cup quartered cucumber slices<br>
+1 plum (Roma) tomato, seeded, chopped<br>
+1/4 cup shredded carrot<br>
+</div>
+	</div><!-- /grid-a -->
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"><p><strong>Directions:</strong></p>
+	<p>Heat oven to 375°F.</p>
+
+If using crescent rolls: Unroll both cans of dough; separate dough into 4 long rectangles. In ungreased 15x10x1-inch pan, place dough; press in bottom and up sides to form crust. If using dough sheets: Unroll both cans of dough. In ungreased 15x10x1-inch pan, place dough; press in bottom and up sides to form crust.
+<p>
+Bake 13 to 17 minutes or until golden brown. Cool completely, about 30 minutes.</p>
+
+In small bowl, mix cream cheese, sour cream, dill and garlic powder until smooth. Spread over crust. Top with vegetables. Serve immediately, or cover and refrigerate 1 to 2 hours before serving. Cut into 8 rows by 4 rows.<br>
+	</div><!-- /grid-solo -->
+</div>
+	</div><!-- /content -->
+
+	<div data-role="footer" class="nav-glyphish-example" data-id="foo1" data-position="fixed">
+		<div data-role="navbar" class="nav-glyphish-example" data-grid="c">
+<ul>
+<li><a href="#menu"   id="home" data-icon="custom" data-theme="c">Menu</a></li>
+<li><a href="#info" id="history" data-icon="custom" data-theme="c">About</a></li>
+<li><a href="#tips" id="tips" data-icon="custom" data-theme="c">Dough</a></li>
+<li><a href="#page14" id="stuff" data-icon="custom" data-theme="c">Next</a></li>
+</ul>
+		</div>
+	
+	</div>
+</div><!-- /page 13 -->
+
+
+
+<div data-role="page" id="page14" data-add-back-btn="true"><!-- page 14 -->
+
+	<div data-role="header" data-theme="a" data-position="inline">
+		<h1>Main Dish Pizza</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="a">
+	<p><strong>Eggplant Parmesan Pizza</strong></p>
+	<div class="ui-grid-solo">
+<div class="ui-block-a"> 
+<!-- <div id="image"><img src="images/r1.jpg"></div> -->
+
+<a href="#popupNYC" data-rel="popup" data-position-to="window">
+<img class="popphoto" src="images/r1.jpg" alt="Apple Pizza" style="float:right; padding:10px; width:35px height:35px"></a>
+
+<div data-role="popup" id="popupNYC" data-overlay-theme="a" data-theme="d" data-corners="true">
+					<a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="images/r1.jpg" style="style="max-width:100%;" alt="Apple Pizza">
+				</div>
+
+</div>
+</div><!-- /ui-grid-solo -->
+
+	<div class="ui-grid-solo">
+	<div class="ui-block-a">
+	<p><strong>Ingredients:</strong></p>
+
+4 servings<br>
+
+1 small eggplant<br>
+Yellow cornmeal, for dusting<br>
+1 pound Easy Whole-Wheat Pizza Dough<br>
+3/4 cup prepared marinara sauce<br>
+2 tablespoons chopped fresh basil<br>
+1 medium clove garlic<br>
+3/4 cup thinly shaved Parmigiano-Reggiano cheese<br>
+</div>
+	</div><!-- /grid-a -->
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"><p><strong>Directions:</strong></p>
+	Preheat grill to medium-high. (For charcoal grilling or an oven variation, see below.)
+Cut eggplant into 1/2-inch thick rounds. Grill, turning once, until marked and softened, 4 to 6 minutes. Let cool slightly, then thinly slice into strips. Reduce heat to low.
+<p>
+Sprinkle cornmeal onto a pizza peel or large baking sheet. Roll out the dough (see Tip) and transfer it to the prepared peel or baking sheet, making sure the underside of the dough is completely coated with cornmeal.
+Slide the crust onto the grill rack; close the lid. Cook until lightly browned, 3 to 4 minutes.
+Using a large spatula, flip the crust. Spread marinara sauce on the crust, leaving a 1-inch border. Quickly top with the eggplant, basil and garlic. Lay the Parmigiano-Reggiano shavings on top.</p>
+
+Close the lid again and grill until the cheese has melted and the bottom of the crust has browned, about 8 minutes. Variations: Pizza on a charcoal grill: Light 6 quarts (about 1 large chimney starter full) of charcoal and burn until the coals are mostly white, about 20 minutes. Spread the coals in an even layer. Place a grate over the coals. Let the coals burn until they are about medium-low. (Grill any toppings for the pizza while the coals are burning down.) To test the heat, hold your palm about 5 inches above the grill rack; if you can hold it there for about 8 seconds before you need to move it away, the fire is medium-low. Transfer the crust to the grill rack, cover the grill and cook the crust, checking once or twice, until lightly browned, 3 to 4 minutes. Flip the crust, quickly add the toppings, cover the grill and cook until the toppings are hot and the bottom of the crust has browned, 5 to 8 minutes. If your crust browns faster than your toppings are cooking, slide a baking sheet under the pizza to keep the crust from burning while the toppings finish. 
+<p>
+Pizza in the oven: <br>
+Place a pizza stone on the lowest rack; preheat oven to 450°F for at least 20 minutes. Roll out the dough and place on a cornmeal-dusted pizza peel or inverted baking sheet, using enough cornmeal so that the dough slides easily. Slide the dough onto the preheated stone and cook until the bottom begins to crisp, about 3 minutes. Remove the crust from the oven using a large spatula and place it uncooked-side down on the peel or baking sheet, making sure the underside of the crust is completely coated with cornmeal.</p>
+
+Quickly add the toppings and slide the pizza back onto the stone. Continue baking until the toppings are hot and the bottom of the crust has browned, 12 to 15 minutes. Individual variation: The dough can be turned into 4 or 6 personal-size pizzas. After kneading, divide the dough into 4 or 6 equal balls. Brush with oil and place 3 inches apart on a baking sheet. Cover and set aside until doubled in size, about 1 hour. Roll each portion into a 6-to-8-inch circle.
+	</div><!-- /grid-solo -->
+</div>
+	</div><!-- /content -->
+
+	<div data-role="footer" class="nav-glyphish-example" data-id="foo1" data-position="fixed">
+		<div data-role="navbar" class="nav-glyphish-example" data-grid="c">
+<ul>
+<li><a href="#menu"   id="home" data-icon="custom" data-theme="c">Menu</a></li>
+<li><a href="#info" id="history" data-icon="custom" data-theme="c">About</a></li>
+<li><a href="#tips" id="tips" data-icon="custom" data-theme="c">Dough</a></li>
+<li><a href="#page15" id="stuff" data-icon="custom" data-theme="c">Next</a></li>
+</ul>
+		</div>
+	
+	</div>
+</div><!-- /page 14 -->
+
+
+
+<div data-role="page" id="page15" data-add-back-btn="true"><!-- page 15-->
+
+	<div data-role="header" data-theme="a" data-position="inline">
+		<h1>Main Dish Pizza</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="a">
+	<p><strong>Fennel, Goat Cheese Pizza</strong></p>
+	<div class="ui-grid-solo">
+<div class="ui-block-a"> 
+<!-- <div id="image"><img src="images/r6.jpg"></div> -->
+
+<a href="#popupNYC" data-rel="popup" data-position-to="window">
+<img class="popphoto" src="images/r6.jpg" alt="Apple Pizza" style="float:right; padding:10px; width:35px height:35px"></a>
+
+<div data-role="popup" id="popupNYC" data-overlay-theme="a" data-theme="d" data-corners="true">
+					<a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="images/r6.jpg" style="style="max-width:100%;" alt="Apple Pizza">
+				</div>
+
+</div>
+</div><!-- /ui-grid-solo -->
+
+	<div class="ui-grid-solo">
+	<div class="ui-block-a">
+	<p><strong>Ingredients:</strong></p>
+
+4 servings<br>
+
+3 tablespoons cornmeal, divided<br>
+3 teaspoons extra-virgin olive oil, divided<br>
+1 large fennel bulb, trimmed and thinly sliced<br>
+1 large onion, thinly sliced<br>
+1 large red bell pepper, seeded and thinly sliced<br>
+1 clove garlic, minced<br>
+1 teaspoon fennel seeds<br>
+16 ounces whole-wheat pizza dough<br>
+1/2 cup sliced California Ripe Olives<br>
+4 ounces goat cheese, crumbled<br>
+Freshly ground pepper, to taste<br>
+</div>
+	</div><!-- /grid-a -->
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"><p><strong>Directions:</strong></p>
+Position oven rack in lower third of oven; preheat to 425°F. <br>
+Lightly oil a large baking sheet or coat it with nonstick spray. Sprinkle with 1 Tbsp. cornmeal.
+<p>
+Heat 2 teaspoons oil in a large skillet over medium-high heat. Add fennel, onion, bell pepper, garlic and fennel seeds; cook, stirring, until the vegetables begin to turn golden, about 5 minutes. Reduce heat to low, cover and cook, stirring occasionally, until softened, 7 to 8 minutes. Set aside to cool slightly.</p>
+
+Divide the pizza dough in half. On a lightly floured surface, with a floured rolling pin, roll 1 piece of dough into an 11-inch circle; place on the prepared baking sheet. Sprinkle with 1 tablespoon cornmeal.
+Stir olives and cheese into the reserved vegetable mixture. Season with pepper. Spoon mixture over the prepared dough, leaving a 1-inch border. Roll remaining dough into an 11-inch circle and place over the filling. Press edges together, then roll to form a rim. Brush top with the remaining 1 teaspoon oil and sprinkle with the remaining 1 tablespoon cornmeal.
+<p>
+Bake until the crust is browned and crisp, about 15 minutes. Cut into 8 wedges. Serve immediately.</p>
+
+	</div><!-- /grid-solo -->
+</div>
+	</div><!-- /content -->
+
+	<div data-role="footer" class="nav-glyphish-example" data-id="foo1" data-position="fixed">
+		<div data-role="navbar" class="nav-glyphish-example" data-grid="c">
+<ul>
+<li><a href="#menu"   id="home" data-icon="custom" data-theme="c">Menu</a></li>
+<li><a href="#info" id="history" data-icon="custom" data-theme="c">About</a></li>
+<li><a href="#tips" id="tips" data-icon="custom" data-theme="c">Dough</a></li>
+<li><a href="#page16" id="stuff" data-icon="custom" data-theme="c">Next</a></li>
+</ul>
+		</div>
+	
+	</div>
+</div><!-- /page 15 -->
+
+
+
+<div data-role="page" id="page16" data-add-back-btn="true"><!-- page 16 -->
+
+	<div data-role="header" data-theme="a" data-position="inline">
+		<h1>Main Dish Pizza</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="a">
+	<p><strong>Feta and Hummus Pizza</strong></p>
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"> 
+<!-- <div id="image"><img src="images/r27.jpg"></div> -->
+
+<a href="#popupNYC" data-rel="popup" data-position-to="window">
+<img class="popphoto" src="images/r27.jpg" alt="Apple Pizza" style="float:right; padding:10px; width:35px height:35px"></a>
+
+<div data-role="popup" id="popupNYC" data-overlay-theme="a" data-theme="d" data-corners="true">
+					<a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="images/r27.jpg" style="style="max-width:100%;" alt="Apple Pizza">
+				</div>
+
+</div>
+</div><!-- /ui-grid-solo -->
+
+	<div class="ui-grid-solo">
+	<div class="ui-block-a">
+	<p><strong>Ingredients:</strong></p>
+4 rounds of pita bread <br>
+8 oz container hummus<br>
+3 medium-sized zucchini, sliced into very thin rounds<br>
+1 Tbsp olive oil<br>
+1/4 tsp salt<br>
+1 cup pitted kalamata olives<br>
+1/3 - 1/2 lb. Feta, crumbled <br>
+(goat cheese can also be used)<br>
+Red pepper flakes to taste (optional)
+</div>
+	</div><!-- /grid-a -->
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"><p><strong>Directions:</strong></p>
+	Preheat oven to 350°F.
+<p>
+Spread hummus evenly over each round of pita bread, leaving a little room around the edges for the crust. Drizzle or brush a little bit of olive oil around the outside rim (or crust) of the pita.</p>
+
+Toss the zucchini slices in 1 Tbsp olive oil and salt. In an overlapping circular pattern, layer the zucchini rounds evenly on each pita bread.
+<p>
+Slice each of the kalamata olives in half. Distribute the olives evenly over the pizzas. Sprinkle the crumbled cheese over the pizzas. If you like a spicy pizza, sprinkle red pepper flakes over each pizza.</p>
+
+Bake 25 minutes. Serve warm or at room temperature
+	</div><!-- /grid-solo -->
+</div>
+	</div><!-- /content -->
+
+	<div data-role="footer" class="nav-glyphish-example" data-id="foo1" data-position="fixed">
+		<div data-role="navbar" class="nav-glyphish-example" data-grid="c">
+<ul>
+<li><a href="#menu"   id="home" data-icon="custom" data-theme="c">Menu</a></li>
+<li><a href="#info" id="history" data-icon="custom" data-theme="c">About</a></li>
+<li><a href="#tips" id="tips" data-icon="custom" data-theme="c">Dough</a></li>
+<li><a href="#page17" id="stuff" data-icon="custom" data-theme="c">Next</a></li>
+</ul>
+		</div>
+	
+	</div>
+</div><!-- /page 16-->
+
+
+
+<div data-role="page" id="page17" data-add-back-btn="true"><!-- page 17 -->
+
+	<div data-role="header" data-theme="a" data-position="inline">
+		<h1>Main Dish Pizza</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="a">
+	<p><strong>Four Cheese Pizza</strong></p>
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"> 
+<!-- <div id="image"><img src="images/r40.jpg"></div> -->
+
+<a href="#popupNYC" data-rel="popup" data-position-to="window">
+<img class="popphoto" src="images/r40.jpg" alt="Apple Pizza" style="float:right; padding:10px; width:35px height:35px"></a>
+
+<div data-role="popup" id="popupNYC" data-overlay-theme="a" data-theme="d" data-corners="true">
+					<a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="images/r40.jpg" style="style="max-width:100%;" alt="Apple Pizza">
+				</div>
+
+</div>
+</div><!-- /ui-grid-solo -->
+
+	<div class="ui-grid-solo">
+	<div class="ui-block-a">
+	<p><strong>Ingredients:</strong></p>
+
+1 cup warm water<br>
+2 cups plus 2 tbsp bread flour<br>
+2 1/4 tsp dry yeast <br>
+7 tsp olive oil<br>
+1/2 tsp kosher salt<br>
+Cooking spray<br>
+1 tbsp yellow cornmeal<br>
+2 tbsp chopped garlic<br>
+1/3 cup part-skim ricotta cheese<br>
+1 1/4 ounces taleggio cheese, thinly sliced<br>
+1/4 cup crumbled Gorgonzola cheese<br>
+1/4 cup finely grated Parmigiano-Reggiano cheese<br>
+2 tbsp chopped fresh chives
+</div>
+	</div><!-- /grid-a -->
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"><p><strong>Directions:</strong></p>
+Pour 3/4 cup warm water in the bowl of a stand mixer with dough hook attached. Weigh or lightly spoon flour into dry measuring cups and spoons; level with a knife. Add flour to 3/4 cup water; mix until combined. Cover and let stand 20 minutes. Combine remaining 1/4 cup water and yeast in a small bowl; let stand 5 minutes or until bubbly. Add yeast mixture, 4 teaspoons oil, and salt to flour mixture; mix 5 minutes or until a soft dough forms. Place dough in a large bowl coated with cooking spray; cover surface of dough with plastic wrap lightly coated with cooking spray. Refrigerate 24 hours.
+<p>
+Remove dough from refrigerator. Let stand, covered, 1 hour or until dough comes to room temperature. Punch dough down. Press dough out to a 12-inch circle on a lightly floured baking sheet, without raised sides, sprinkled with cornmeal. Crimp edges to form a 1/2-inch border. Cover dough loosely with plastic wrap.</p>
+
+Position an oven rack in the lowest setting. Place a pizza stone on lowest rack. Preheat oven to 550°. Preheat stone 30 minutes before baking dough.
+<p>
+Remove plastic wrap from dough. Combine remaining 1 tablespoon oil and garlic; gently brush garlic mixture evenly over dough, leaving a 1/2-inch border. Spread ricotta evenly over dough; arrange taleggio and Gorgonzola evenly over ricotta. Top with Parmigiano-Reggiano. Slide pizza onto preheated pizza stone, using a spatula as a guide. Bake at 550°F for 10 minutes or until crust is golden. Cut pizza into 10 wedges; sprinkle with chives.</p>
+	</div><!-- /grid-solo -->
+</div>
+	</div><!-- /content -->
+
+	<div data-role="footer" class="nav-glyphish-example" data-id="foo1" data-position="fixed">
+		<div data-role="navbar" class="nav-glyphish-example" data-grid="c">
+<ul>
+<li><a href="#menu"   id="home" data-icon="custom" data-theme="c">Menu</a></li>
+<li><a href="#info" id="history" data-icon="custom" data-theme="c">About</a></li>
+<li><a href="#tips" id="tips" data-icon="custom" data-theme="c">Dough</a></li>
+<li><a href="#page18" id="stuff" data-icon="custom" data-theme="c">Next</a></li>
+</ul>
+		</div>
+	
+	</div>
+</div><!-- /page 17 -->
+
+
+
+<div data-role="page" id="page18" data-add-back-btn="true"><!-- page 18 -->
+
+	<div data-role="header" data-theme="a" data-position="inline">
+		<h1>Main Dish Pizza</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="a">
+	<p><strong>French Bread Pizza</strong></p>
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"> 
+<!-- <div id="image"><img src="images/r19.jpg"></div> -->
+
+<a href="#popupNYC" data-rel="popup" data-position-to="window">
+<img class="popphoto" src="images/r19.jpg" alt="Apple Pizza" style="float:right; padding:10px; width:35px height:35px"></a>
+
+<div data-role="popup" id="popupNYC" data-overlay-theme="a" data-theme="d" data-corners="true">
+					<a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="images/r19.jpg" style="style="max-width:100%;" alt="Apple Pizza">
+				</div>
+
+</div>
+</div><!-- /ui-grid-solo -->
+
+	<div class="ui-grid-solo">
+	<div class="ui-block-a">
+	<p><strong>Ingredients:</strong></p>
+Servings: 6 to 8<br>
+1 one pound loaf French bread<br>
+1 cup pizza sauce<br>
+1-2 cups shredded mozzarella cheese<br>
+4 ounce can sliced mushrooms, drained<br>
+16 ounce can artichoke hearts, drained<br>
+1/2 large green pepper, sliced<br>
+1/2 large red or yellow pepper, sliced<br>
+1/2 cup chopped red onion<br>
+2 ounce can sliced black olives, drained<br>
+black pepper to taste
+</div>
+	</div><!-- /grid-a -->
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"><p><strong>Directions:</strong></p>
+Pre-heat oven to 350 degrees.
+<p>
+Slice loaf in half, length-wise, and spread each half with equal amounts of ingredients. Sprinkle lightly with black pepper.</p>
+
+Bake for 7 to 10 minutes, or until cheese melts. Slice each half into fourths.
+
+
+	</div><!-- /grid-solo -->
+</div>
+	</div><!-- /content -->
+
+	<div data-role="footer" class="nav-glyphish-example" data-id="foo1" data-position="fixed">
+		<div data-role="navbar" class="nav-glyphish-example" data-grid="c">
+<ul>
+<li><a href="#menu"   id="home" data-icon="custom" data-theme="c">Menu</a></li>
+<li><a href="#info" id="history" data-icon="custom" data-theme="c">About</a></li>
+<li><a href="#tips" id="tips" data-icon="custom" data-theme="c">Dough</a></li>
+<li><a href="#page19" id="stuff" data-icon="custom" data-theme="c">Next</a></li>
+</ul>
+		</div>
+	
+	</div>
+</div><!-- /page 18 -->
+
+
+
+<div data-role="page" id="page19" data-add-back-btn="true"><!-- page 19 -->
+
+	<div data-role="header" data-theme="a" data-position="inline">
+		<h1>Main Dish Pizza</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="a">
+	<p><strong>Fresh Tomato & Black Olive Pizza</strong></p>
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"> 
+<!-- <div id="image"><img src="images/r12.jpg"></div> -->
+
+<a href="#popupNYC" data-rel="popup" data-position-to="window">
+<img class="popphoto" src="images/r12.jpg" alt="Apple Pizza" style="float:right; padding:10px; width:35px height:35px"></a>
+
+<div data-role="popup" id="popupNYC" data-overlay-theme="a" data-theme="d" data-corners="true">
+					<a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="images/r12.jpg" style="style="max-width:100%;" alt="Apple Pizza">
+				</div>
+
+</div>
+</div><!-- /ui-grid-solo -->
+
+	<div class="ui-grid-solo">
+	<div class="ui-block-a">
+	<p><strong>Ingredients:</strong></p>
+
+5 servings
+<p>
+WHOLE-WHEAT PIZZA DOUGH</p>
+
+TOPPINGS<br>
+2 tablespoons extra-virgin olive oil<br>
+1 clove garlic, minced<br>
+1/2 teaspoon salt<br>
+1/4 teaspoon freshly ground pepper<br>
+3 plum tomatoes, sliced<br>
+1/4 cup chopped black olives<br>
+8 ounces fresh mozzarella cheese, thinly sliced<br>
+1/4 cup chopped fresh basil for garnish
+</div>
+	</div><!-- /grid-a -->
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"><p><strong>Directions:</strong></p>
+Position rack in lower third of oven; preheat to 450°F. Brush oil over a large baking sheet. Sprinkle the baking sheet with cornmeal to coat evenly.
+<p>
+Combine oil, garlic, salt and pepper in a small bowl.</p>
+
+Sprinkle flour over work surface. Roll out the dough to the size of the baking sheet (see Tips) and transfer to the baking sheet. Cover the dough with oil mixture. Scatter with tomatoes and olives and sprinkle with cheese. 
+<p>
+Bake until the crust is crispy and the cheese is melted and starting to brown, 15 to 20 minutes. Top with basil, if using.</p>
+
+	
+	</div><!-- /grid-solo -->
+</div>
+	</div><!-- /content -->
+
+	<div data-role="footer" class="nav-glyphish-example" data-id="foo1" data-position="fixed">
+		<div data-role="navbar" class="nav-glyphish-example" data-grid="c">
+<ul>
+<li><a href="#menu"   id="home" data-icon="custom" data-theme="c">Menu</a></li>
+<li><a href="#info" id="history" data-icon="custom" data-theme="c">About</a></li>
+<li><a href="#tips" id="tips" data-icon="custom" data-theme="c">Dough</a></li>
+<li><a href="#page20" id="stuff" data-icon="custom" data-theme="c">Next</a></li>
+</ul>
+		</div>
+	
+	</div>
+</div><!-- /page 19 -->
+
+
+
+<div data-role="page" id="page20" data-add-back-btn="true"><!-- page 20 -->
+
+	<div data-role="header" data-theme="a" data-position="inline">
+		<h1>Main Dish Pizza</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="a">
+	<p><strong>Fresh Vegetable Pizza</strong></p>
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"> 
+<!-- <div id="image"><img src="images/r15.jpg"></div> -->
+
+<a href="#popupNYC" data-rel="popup" data-position-to="window">
+<img class="popphoto" src="images/r15.jpg" alt="Apple Pizza" style="float:right; padding:10px; width:35px height:35px"></a>
+
+<div data-role="popup" id="popupNYC" data-overlay-theme="a" data-theme="d" data-corners="true">
+					<a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="images/r15.jpg" style="style="max-width:100%;" alt="Apple Pizza">
+				</div>
+
+</div>
+</div><!-- /ui-grid-solo -->
+
+	<div class="ui-grid-solo">
+	<div class="ui-block-a">
+	<p><strong>Ingredients:</strong></p>
+
+2 cans (8 oz each) refrigerated crescent dinner rolls<br>
+or<br>
+2 cans (8 oz each) Crescent 8 oz sour cream<br>
+
+1-2 tbsp prepared horseradish<br>
+1/4 teaspoon salt<br>
+1/8 teaspoon pepper<br>
+2 cups fresh mushrooms, chopped<br>
+1 cup chopped seeded tomatoes<br>
+1 cup small broccoli florets<br>
+1/2 cup chopped green bell pepper<br>
+1/2 cup chopped green onions
+</div>
+	</div><!-- /grid-a -->
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"><p><strong>Directions:</strong></p>
+	Heat oven to 375°F.
+<p>
+If using crescent rolls: Unroll both cans of dough; separate dough into 4 long rectangles. Place rectangles crosswise in ungreased 15x10x1-inch pan; press in bottom and 1 inch up sides to form crust. Seal perforations. If using dough sheets: Unroll both cans of dough. Place rectangles crosswise in ungreased 15x10x1-inch pan; press in bottom and 1 inch up sides to form crust.</p>
+
+Bake 14 to 19 minutes or until golden brown. Cool completely, about 30 minutes.
+<p>
+In small bowl, mix sour cream, horseradish, salt and pepper until smooth. Spread evenly over cooled crust. Top with remaining ingredients. Cut into 10 rows by 6 rows. Store in refrigerator.</p>
+	</div><!-- /grid-solo -->
+</div>
+	</div><!-- /content -->
+
+	<div data-role="footer" class="nav-glyphish-example" data-id="foo1" data-position="fixed">
+		<div data-role="navbar" class="nav-glyphish-example" data-grid="c">
+<ul>
+<li><a href="#menu"   id="home" data-icon="custom" data-theme="c">Menu</a></li>
+<li><a href="#info" id="history" data-icon="custom" data-theme="c">About</a></li>
+<li><a href="#tips" id="tips" data-icon="custom" data-theme="c">Dough</a></li>
+<li><a href="#page21" id="stuff" data-icon="custom" data-theme="c">Next</a></li>
+</ul>
+		</div>
+	
+	</div>
+</div><!-- /page 20 -->
+
+
+<div data-role="page" id="page21" data-add-back-btn="true"><!-- page 21 -->
+
+	<div data-role="header" data-theme="a" data-position="inline">
+		<h1>Desert Pizza</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="a">
+	<p><strong>Fruit Pizza</strong></p>
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"> 
+<!-- <div id="image"><img src="images/r28.jpg"></div> -->
+
+<a href="#popupNYC" data-rel="popup" data-position-to="window">
+<img class="popphoto" src="images/r28.jpg" alt="Apple Pizza" style="float:right; padding:10px; width:35px height:35px"></a>
+
+<div data-role="popup" id="popupNYC" data-overlay-theme="a" data-theme="d" data-corners="true">
+					<a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="images/r28.jpg" style="style="max-width:100%;" alt="Apple Pizza">
+				</div>
+
+</div>
+</div><!-- /ui-grid-solo -->
+
+	<div class="ui-grid-solo">
+	<div class="ui-block-a">
+	<p><strong>Ingredients:</strong></p>
+Pizza Dough:<br>
+1 package store bought sugar cookie dough<br>
+<br>
+Toppings:<br>
+8 ounces softened cream cheese<br>
+1 cup confectioners' sugar<br>
+1 large peach, sliced<br>
+1 large green apple, sliced
+1 large orange, sectioned<br>
+1/2 pint fresh strawberries, sliced<br>
+6 ounces fresh blueberries<br>
+6 ounces fresh raspberries<br>
+1/2 cup white chocolate chips, melted<br>
+1/2 cup chocolate syrup
+</div>
+	</div><!-- /grid-a -->
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"><p><strong>Directions:</strong></p>
+	Preheat oven to 350 degrees F.
+<p>
+Flatten cookie dough onto a 6-inch pizza pan. Bake until firm to touch, about 11 to 15 minutes. Cool. </p>
+
+In a medium bowl, blend cream cheese and sugar. Spread the baked cookie with the cream cheese mixture and decorate with sliced fruit. In a small bowl, combine melted white chocolate with chocolate syrup. 
+<p>
+Top the pizza with remaining berries and chocolate mixture. Slice and serve immediately.</p>
+
+	</div><!-- /grid-solo -->
+</div>
+	</div><!-- /content -->
+
+	<div data-role="footer" class="nav-glyphish-example" data-id="foo1" data-position="fixed">
+		<div data-role="navbar" class="nav-glyphish-example" data-grid="c">
+<ul>
+<li><a href="#menu"   id="home" data-icon="custom" data-theme="c">Menu</a></li>
+<li><a href="#info" id="history" data-icon="custom" data-theme="c">About</a></li>
+<li><a href="#tips" id="tips" data-icon="custom" data-theme="c">Dough</a></li>
+<li><a href="#page22" id="stuff" data-icon="custom" data-theme="c">Next</a></li>
+</ul>
+		</div>
+	
+	</div>
+</div><!-- /page 21 -->
+
+
+<div data-role="page" id="page22" data-add-back-btn="true"><!-- page 22 -->
+
+	<div data-role="header" data-theme="a" data-position="inline">
+		<h1>Desert Pizza</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="a">
+	<p><strong>Fudgy Nut and Fluff Apple Pizza</strong></p>
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"> 
+<!-- <div id="image"><img src="images/r34.jpg"></div> -->
+
+<a href="#popupNYC" data-rel="popup" data-position-to="window">
+<img class="popphoto" src="images/r34.jpg" alt="Apple Pizza" style="float:right; padding:10px; width:35px height:35px"></a>
+
+<div data-role="popup" id="popupNYC" data-overlay-theme="a" data-theme="d" data-corners="true">
+					<a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="images/r34.jpg" style="style="max-width:100%;" alt="Apple Pizza">
+				</div>
+
+</div>
+</div><!-- /ui-grid-solo -->
+
+	<div class="ui-grid-solo">
+	<div class="ui-block-a">
+	<p><strong>Ingredients:</strong></p>
+
+Dough:<br>
+1 tablespoon salt<br>
+1 tablespoon sugar<br>
+1 (1/4-ounce) packet fresh fast-acting yeast<br>
+1 1/2 cups warm water, between 100 and 115 degrees F, as measured with a candy thermometer (any hotter will kill the yeast - an organic leavener, too cool and the yeast won't be activated)<br>
+3 cups all purpose flour, plus some extra for the dough board<br>
+2 tablespoons cornmeal, for the pizza stone<br>
+<br>
+Topping:<br>
+2 tablespoons butter<br>
+3 to 4 apples, peeled, cored and sliced, and tossed with a little bit of lemon juice to prevent oxidation (good choices are Braeburn, Gala, Jonathan, Rome Beauty)<br>
+1 teaspoon ground cinnamon<br>
+1/2 cup sugar<br>
+1/4 cup lemon juice<br>
+6 tablespoons caramel ice cream topping<br>
+6 tablespoons hazelnut and chocolate paste (recommended: Nutella)<br>
+1/2 cup mini-marshmallows<br>
+1/4 cup chocolate syrup
+</div>
+	</div><!-- /grid-a -->
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"><p><strong>Directions:</strong></p>
+
+Dissolve salt, sugar, and yeast in the warm water and allow the yeast to proof. ("Proofing" the yeast is testing it for viability. It will develop a foam which looks like the head of a beer. If it doesn't proof, the yeast is dead and should be discarded.) Proofing takes about 15 minutes.
+<p>
+Place flour in a food processor fitted with a dough blade, and through the feed tube with the food processor running, slowly pour the proofed yeast mixture, until the dough comes together and is a cohesive mass. Transfer the dough to a floured board, and knead for about 5 minutes. Place in a bowl, cover with a clean dish towel and allow dough to rise, so that it roughly doubles in volume. (This will take about 30 minutes to an hour). The dough has risen enough if you make an indentation with your finger and it does not spring back.) Punch the dough down and allow it to rise again. (Allowing the dough to rise a second time gives it a finer texture.) Note: It will not rise as much the second time.</p>
+
+While the dough is proofing, begin to prepare the topping. Melt the butter over medium heat in a pan with a lid. Add apples and stir gently to coat with the warm butter. Combine cinnamon and sugar and sprinkle over the apples. Stir in the lemon juice. Cover and cook over low to medium heat for about 40 minutes, or until the apples are cooked through and tender.
+<p>
+Preheat oven to 450 degrees F. Stretch the dough out into a 14-inch circle which is thicker around the perimeter. Transfer dough to a pizza stone sprinkled with cornmeal. Top evenly with the cooked apple slices. Since the caramel topping and hazelnut, chocolate sauce are thick and awkward to spread, distribute spoonfuls of them evenly over the surface of the apple slices and the heat from the oven will make them melt onto the surface. Sprinkle with mini-marshmallows and drizzle with chocolate syrup. Bake for 10 to 15 minutes, or until the dough is nicely browned.</p>
+	</div><!-- /grid-solo -->
+</div>
+	</div><!-- /content -->
+
+	<div data-role="footer" class="nav-glyphish-example" data-id="foo1" data-position="fixed">
+		<div data-role="navbar" class="nav-glyphish-example" data-grid="c">
+<ul>
+<li><a href="#menu"   id="home" data-icon="custom" data-theme="c">Menu</a></li>
+<li><a href="#info" id="history" data-icon="custom" data-theme="c">About</a></li>
+<li><a href="#tips" id="tips" data-icon="custom" data-theme="c">Dough</a></li>
+<li><a href="#page23" id="stuff" data-icon="custom" data-theme="c">Next</a></li>
+</ul>
+		</div>
+	
+	</div>
+</div><!-- /page 22 -->
+
+
+<div data-role="page" id="page23" data-add-back-btn="true"><!-- page 23 -->
+
+	<div data-role="header" data-theme="a" data-position="inline">
+		<h1>Main Dish Pizza</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="a">
+	<p><strong>Garden Pizza</strong></p>
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"> 
+<!-- <div id="image"><img src="images/r9.jpg"></div> -->
+
+<a href="#popupNYC" data-rel="popup" data-position-to="window">
+<img class="popphoto" src="images/r9.jpg" alt="Apple Pizza" style="float:right; padding:10px; width:35px height:35px"></a>
+
+<div data-role="popup" id="popupNYC" data-overlay-theme="a" data-theme="d" data-corners="true">
+					<a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="images/r9.jpg" style="style="max-width:100%;" alt="Apple Pizza">
+				</div>
+
+</div>
+</div><!-- /ui-grid-solo -->
+
+	<div class="ui-grid-solo">
+	<div class="ui-block-a">
+	<p><strong>Ingredients:</strong></p>
+4 servings<br>
+
+4 whole baby or 1 medium zucchini, halved lengthwise<br>
+1 pint cherry tomatoes<br>
+2 tablespoons tomato paste<br>
+8 fresh basil leaves<br>
+2 teaspoons minced fresh oregano<br>
+1/4 teaspoon salt<br>
+1/2 teaspoon freshly ground pepper<br>
+Yellow cornmeal, for dusting<br>
+1 pound Whole-Wheat Pizza Dough <br>
+4 ounces fresh mozzarella cheese, thinly sliced<br>
+1 medium yellow bell pepper, diced<br>
+3 tablespoons grated Parmesan cheese
+</div>
+	</div><!-- /grid-a -->
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"><p><strong>Directions:</strong></p>
+	Preheat grill to medium-high. (For charcoal grilling or an oven variation, see below.)
+<p>
+Grill zucchini until marked and softened, about 4 minutes. Thinly slice. Reduce heat to low.
+Process tomatoes, tomato paste, basil, oregano, salt and pepper in a food processor until smooth, scraping down the sides as needed.</p>
+Sprinkle cornmeal onto a pizza peel or large baking sheet. Roll out the dough (see Tip) and transfer it to the prepared peel or baking sheet, making sure the underside of the dough is completely coated with cornmeal.
+Slide the crust onto the grill rack; close the lid. Cook until lightly browned, 3 to 4 minutes.
+<p>
+Using a large spatula, flip the crust. Spread the tomato mixture on the crust, leaving a 1-inch border. Quickly top with mozzarella, bell pepper and the zucchini. Sprinkle on Parmesan.</p>
+
+Close the lid again and grill until the cheese has melted and the bottom of the crust has browned, about 8 minutes.
+	
+	
+	</div><!-- /grid-solo -->
+</div>
+	</div><!-- /content -->
+
+	<div data-role="footer" class="nav-glyphish-example" data-id="foo1" data-position="fixed">
+		<div data-role="navbar" class="nav-glyphish-example" data-grid="c">
+<ul>
+<li><a href="#menu"   id="home" data-icon="custom" data-theme="c">Menu</a></li>
+<li><a href="#info" id="history" data-icon="custom" data-theme="c">About</a></li>
+<li><a href="#tips" id="tips" data-icon="custom" data-theme="c">Dough</a></li>
+<li><a href="#page24" id="stuff" data-icon="custom" data-theme="c">Next</a></li>
+</ul>
+		</div>
+	
+	</div>
+</div><!-- /page 23 -->
+
+
+<div data-role="page" id="page24" data-add-back-btn="true"><!-- page 24 -->
+
+	<div data-role="header" data-theme="a" data-position="inline">
+		<h1>Main Dish Pizza</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="a">
+	<p><strong>Green Pizza</strong></p>
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"> 
+<!-- <div id="image"><img src="images/r4.jpg"></div> -->
+
+<a href="#popupNYC" data-rel="popup" data-position-to="window">
+<img class="popphoto" src="images/r4.jpg" alt="Apple Pizza" style="float:right; padding:10px; width:35px height:35px"></a>
+
+<div data-role="popup" id="popupNYC" data-overlay-theme="a" data-theme="d" data-corners="true">
+					<a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="images/r4.jpg" style="style="max-width:100%;" alt="Apple Pizza">
+				</div>
+
+</div>
+</div><!-- /ui-grid-solo -->
+
+	<div class="ui-grid-solo">
+	<div class="ui-block-a">
+	<p><strong>Ingredients:</strong></p>
+6 servings<br>
+1 pound pizza dough<br>
+2 cups chopped broccoli florets<br>
+1/4 cup water<br>
+5 ounces arugula ,any tough stems removed<br>
+Pinch of salt<br>
+Freshly ground pepper to taste<br>
+1/2 cup prepared pesto<br>
+1 cup shredded part-skim mozzarella cheese
+</div>
+	</div><!-- /grid-a -->
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"><p><strong>Directions:</strong></p>
+Position oven rack in the lowest position; preheat to 450°F. 
+<p>
+Coat a large baking sheet with cooking spray.</p>
+Roll out dough on a lightly floured surface to about the size of the baking sheet. Transfer to the baking sheet. Bake until puffed and lightly crisped on the bottom, 8 to 10 minutes.
+<p>
+Meanwhile, cook broccoli and water in a large skillet over medium heat, covered, until the broccoli is crisp-tender, about 3 minutes. Stir in arugula and cook, stirring, until wilted, 1 to 2 minutes more. Season with salt and pepper.</p>
+Spread pesto evenly over the crust, top with the broccoli mixture and sprinkle with cheese. Bake until crispy and golden and the cheese is melted, 8 to 10 minutes.
+	</div><!-- /grid-solo -->
+</div>
+	</div><!-- /content -->
+
+	<div data-role="footer" class="nav-glyphish-example" data-id="foo1" data-position="fixed">
+		<div data-role="navbar" class="nav-glyphish-example" data-grid="c">
+<ul>
+<li><a href="#menu"   id="home" data-icon="custom" data-theme="c">Menu</a></li>
+<li><a href="#info" id="history" data-icon="custom" data-theme="c">About</a></li>
+<li><a href="#tips" id="tips" data-icon="custom" data-theme="c">Dough</a></li>
+<li><a href="#page25" id="stuff" data-icon="custom" data-theme="c">Next</a></li>
+</ul>
+		</div>
+	
+	</div>
+</div><!-- /page 24 -->
+
+
+<div data-role="page" id="page25" data-add-back-btn="true"><!-- page 25 -->
+<div data-role="header" data-theme="a" data-position="inline">
+		<h1>Breakfeast Pizza</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="a">
+	<p><strong>Grilled Breakfeast Pizza</strong></p>
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"> 
+<!-- <div id="image"><img src="images/r37.jpg"></div> -->
+
+<a href="#popupNYC" data-rel="popup" data-position-to="window">
+<img class="popphoto" src="images/r37.jpg" alt="Apple Pizza" style="float:right; padding:10px; width:35px height:35px"></a>
+
+<div data-role="popup" id="popupNYC" data-overlay-theme="a" data-theme="d" data-corners="true">
+					<a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="images/r37.jpg" style="style="max-width:100%;" alt="Apple Pizza">
+				</div>
+
+</div>
+</div><!-- /ui-grid-solo -->
+
+	<div class="ui-grid-solo">
+	<div class="ui-block-a">
+	<p><strong>Ingredients:</strong></p>
+
+servings 2<br>
+2 ounces turkey sausage substitute, sliced<br>
+1/4 cup sliced mushrooms<br>
+1 pizza crust, prebaked 6-inch<br>
+1/2 cup bell pepper, red and green, sliced<br>
+3 large eggs<br>
+1/2 cup mozzarella cheese, shredded
+</div>
+	</div><!-- /grid-a -->
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"><p><strong>Directions:</strong></p>
+Place pizza shell on medium-heat flat grill or grooved grill for 3 minutes on each side.
+<p>
+Sauté sausage and mushroom together. Remove from pan and keep warm.</p>
+
+While pizza shell is heating, place peppers in pan and cook for 1 minute. Add eggs and scramble together. Cook until eggs are almost set.
+<p>
+Arrange cooked egg/pepper mixture on pizza shell; garnish with mushrooms and sausage. Sprinkle with cheese and place under broiler for 1 minute.</p>
+
+	</div><!-- /grid-solo -->
+</div>
+	</div><!-- /content -->
+
+	<div data-role="footer" class="nav-glyphish-example" data-id="foo1" data-position="fixed">
+		<div data-role="navbar" class="nav-glyphish-example" data-grid="c">
+<ul>
+<li><a href="#menu"   id="home" data-icon="custom" data-theme="c">Menu</a></li>
+<li><a href="#info" id="history" data-icon="custom" data-theme="c">About</a></li>
+<li><a href="#tips" id="tips" data-icon="custom" data-theme="c">Dough</a></li>
+<li><a href="#page26" id="stuff" data-icon="custom" data-theme="c">Next</a></li>
+</ul>
+		</div>
+	
+	</div>
+</div><!-- /page 25 -->
+
+
+
+<div data-role="page" id="page26" data-add-back-btn="true"><!-- page 26 -->
+
+	<div data-role="header" data-theme="a" data-position="inline">
+		<h1>Main Dish Pizza</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="a">
+	<p><strong>Grilled Eggplant & Fresh Basil Pizza</strong></p>
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"> 
+<!-- <div id="image"><img src="images/r21.jpg"></div> -->
+
+<a href="#popupNYC" data-rel="popup" data-position-to="window">
+<img class="popphoto" src="images/r21.jpg" alt="Apple Pizza" style="float:right; padding:10px; width:35px height:35px"></a>
+
+<div data-role="popup" id="popupNYC" data-overlay-theme="a" data-theme="d" data-corners="true">
+					<a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="images/r21.jpg" style="style="max-width:100%;" alt="Apple Pizza">
+				</div>
+
+</div>
+</div><!-- /ui-grid-solo -->
+
+	<div class="ui-grid-solo">
+	<div class="ui-block-a">
+	<p><strong>Ingredients:</strong></p>
+
+olive oil for brushing eggplant<br>
+1 small eggplant<br>
+12 medium whole fresh basil leaves<br>
+1/3 cup prepared pizza sauce<br>
+2/3 cup grated mozzarella cheese<br>
+prepared pizza dough for one pizza <br>
+</div>
+	</div><!-- /grid-a -->
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"><p><strong>Directions:</strong></p>
+	Set oven to broil (about 500 degrees F).
+<p>
+Slice eggplant into rounds about 1/3-inch thick. Brush with olive oil and grill for a few minutes, about 2-3 minutes, on each side, until tender. Set aside. If you don't have a grill handy, you could also roast them in the oven for about 10 minutes at 300 degrees on a baking sheet.</p>
+
+Spread a layer of pizza sauce on top of the dough. On top of the sauce, arrange the grilled eggplant slices in a single layer and tuck a whole basil leaf under each slice. Depending on the size of your eggplant, you may have some leftover. Dip it in the sauce and eat it as an appetizer while you're waiting for your pizza to cook!
+<p>
+Chop 3-4 whole basil leaves coarsely, then sprinkle them on top of the pizza, followed by a layer of grated mozzarella cheese.</p>
+
+Bake pizza in oven for 10-15 minutes, or until cheese is just bubbly and crust is lightly golden brown.
+<p>
+Note that as with most pizza recipes, the amount needed is really an approximation, so feel free to adjust and add more or less as you like.</p>
+
+	</div><!-- /grid-solo -->
+</div>
+	</div><!-- /content -->
+
+	<div data-role="footer" class="nav-glyphish-example" data-id="foo1" data-position="fixed">
+		<div data-role="navbar" class="nav-glyphish-example" data-grid="c">
+<ul>
+<li><a href="#menu"   id="home" data-icon="custom" data-theme="c">Menu</a></li>
+<li><a href="#info" id="history" data-icon="custom" data-theme="c">About</a></li>
+<li><a href="#tips" id="tips" data-icon="custom" data-theme="c">Dough</a></li>
+<li><a href="#page27" id="stuff" data-icon="custom" data-theme="c">Next</a></li>
+</ul>
+		</div>
+	
+	</div>
+</div><!-- /page 26 -->
+
+
+
+<div data-role="page" id="page27" data-add-back-btn="true"><!-- page 27 -->
+
+	<div data-role="header" data-theme="a" data-position="inline">
+		<h1>Main Dish Pizza</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="a">
+	<p><strong>Grilled Pizza with Pesto, Tomatoes & Feta</strong></p>
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"> 
+<!-- <div id="image"><img src="images/r5.jpg"></div> -->
+
+<a href="#popupNYC" data-rel="popup" data-position-to="window">
+<img class="popphoto" src="images/r5.jpg" alt="Apple Pizza" style="float:right; padding:10px; width:35px height:35px"></a>
+
+<div data-role="popup" id="popupNYC" data-overlay-theme="a" data-theme="d" data-corners="true">
+					<a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="images/r5.jpg" style="style="max-width:100%;" alt="Apple Pizza">
+				</div>
+
+</div>
+</div><!-- /ui-grid-solo -->
+
+	<div class="ui-grid-solo">
+	<div class="ui-block-a">
+	<p><strong>Ingredients:</strong></p>>
+4 servings<br>
+1 pound prepared pizza dough<br>
+1/2 cup prepared pesto<br>
+4 ripe plum tomatoes, thinly sliced<br>
+1/2 cup crumbled feta cheese<br>
+Freshly ground pepper, to taste<br>
+1/4 cup lightly packed fresh basil leaves, torn<br>
+</div>
+	</div><!-- /grid-a -->
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"><p><strong>Directions:</strong></p>
+	Heat grill to medium-high.
+<p>
+Meanwhile, place dough on a lightly floured surface. Divide into 4 pieces. Roll each piece into an 8-inch round crust, about 1/4 inch thick. Place crusts on a floured baking sheet. Carry crusts and toppings out to the grill.</p>
+Lay crusts on grill (they won’t stay perfectly round). Cover grill and cook until crusts are lightly puffed and undersides are lightly browned, about 3 minutes.
+<p>
+Using tongs, flip crusts. Immediately spread pesto over crusts. Top with tomatoes. Sprinkle with feta and pepper. Cover grill and cook until the undersides are lightly browned, about 3 minutes more. Sprinkle with basil and serve immediately.</p>
+	</div><!-- /grid-solo -->
+</div>
+	</div><!-- /content -->
+
+	<div data-role="footer" class="nav-glyphish-example" data-id="foo1" data-position="fixed">
+		<div data-role="navbar" class="nav-glyphish-example" data-grid="c">
+<ul>
+<li><a href="#menu"   id="home" data-icon="custom" data-theme="c">Menu</a></li>
+<li><a href="#info" id="history" data-icon="custom" data-theme="c">About</a></li>
+<li><a href="#tips" id="tips" data-icon="custom" data-theme="c">Dough</a></li>
+<li><a href="#page28" id="stuff" data-icon="custom" data-theme="c">Next</a></li>
+</ul>
+		</div>
+	
+	</div>
+</div><!-- /page 27 -->
+
+
+
+<div data-role="page" id="page28" data-add-back-btn="true"><!-- page 28 -->
+
+	<div data-role="header" data-theme="a" data-position="inline">
+		<h1>Main Dish Pizza</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="a">
+	<p><strong>Indian Pizza</strong></p>
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"> 
+<!-- <div id="image"><img src="images/r45.jpg"></div> -->
+
+<a href="#popupNYC" data-rel="popup" data-position-to="window">
+<img class="popphoto" src="images/r45.jpg" alt="Apple Pizza" style="float:right; padding:10px; width:35px height:35px"></a>
+
+<div data-role="popup" id="popupNYC" data-overlay-theme="a" data-theme="d" data-corners="true">
+					<a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="images/r45.jpg" style="style="max-width:100%;" alt="Apple Pizza">
+				</div>
+
+</div>
+</div><!-- /ui-grid-solo -->
+
+	<div class="ui-grid-solo">
+	<div class="ui-block-a">
+	<p><strong>Ingredients:</strong></p>
+<strong>DOUGH:</strong><br>
+1 cup warm water<br>
+1 teaspoon yeast<br>
+1 teaspoon sugar<br>
+2 cups flour<br>
+plus 2 tablespoons for kneading<br>
+1 teaspoon salt<br>
+1 teaspoon ajwain<br>
+Olive oil<br>
+<br>
+<strong>PIZZA:</strong><br>
+3 tablespoons olive oil<br>
+1 onion, roughly chopped<br>
+2 cloves garlic, chopped<br>
+2 tablespoons chopped ginger<br>
+1 tablespoon garam masala<br>
+1 teaspoon turmeric<br>
+1/2 teaspoon smoked paprika<br>
+A pinch of salt and pepper<br>
+1 pound fresh spinach leaves<br>
+1/4 cup chopped fresh cilantro<br>
+3 green onions, sliced<br>
+1 cup yellow cherry tomatoes, cut in half<br>
+1 cup shredded mozzarella<br>
+3 tablespoons olive oil<br>
+1 onion, roughly chopped<br>
+2 cloves garlic, chopped<br>
+2 tablespoons chopped ginger<br>
+1 tablespoon garam masala<br>
+1 teaspoon turmeric<br>
+1/2 teaspoon smoked paprika<br>
+A pinch of salt and pepper<br>
+1 pound fresh spinach leaves<br>
+1/4 cup chopped fresh cilantro<br>
+3 green onions, sliced<br>
+1 cup yellow cherry tomatoes, cut in half<br>
+1 cup shredded mozzarella
+
+</div>
+	</div><!-- /grid-a -->
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"><p><strong>Directions:</strong></p>
+	<strong> For the dough: </strong><br>
+Pour the warm water into a large bowl, add the yeast and sugar and stir to dissolve. Let sit until the yeast appears foamy, about 15 minutes. 
+<p>
+Add 2 cups flour, the salt and ajwain and stir with a fork until it comes together in a shaggy ball. Knead it a few times in the bowl to incorporate the flour on the sides of the bowl, and then turn it out onto a work surface. Continue to knead the dough for a few minutes, adding the 2 tablespoons flour if it seems wet and sticky. Do not add a lot of extra flour here as the dough should be very soft and pliable. Pour a little olive oil into a clean bowl and smear it around the edges. Rub it over the surface of the dough and then place the dough in the bowl. Cover with a towel and let rise in a warm place for 1 hour. </p>
+
+Preheat the oven to 425 degrees F. 
+<p>
+<strong>For the pizza:</strong><br>
+Put the olive oil into a large skillet and add the onions, garlic and ginger. Saute until golden and soft, and then add the garam masala, turmeric, smoked paprika and salt and pepper. Add the spinach and stir until completely wilted. Let cool slightly, and then add to a food processor and puree until smooth.</p> 
+
+When the dough is ready, pick it up and begin to stretch and pull it into a circle. Press it onto a pizza pan, stretching the dough to the edges. Spread the spinach mixture evenly over the entire pizza. Sprinkle the cilantro and green onions over it, and then add the tomato halves. Cover with the shredded cheese. 
+<p>
+Place the pizza on the bottom rack of the oven and bake until the crust is golden and crispy and the cheese is bubbling, 25 to 30 minutes. Slice into wedges and serve.</p>
+	</div><!-- /grid-solo -->
+</div>
+	</div><!-- /content -->
+
+	<div data-role="footer" class="nav-glyphish-example" data-id="foo1" data-position="fixed">
+		<div data-role="navbar" class="nav-glyphish-example" data-grid="c">
+<ul>
+<li><a href="#menu"   id="home" data-icon="custom" data-theme="c">Menu</a></li>
+<li><a href="#info" id="history" data-icon="custom" data-theme="c">About</a></li>
+<li><a href="#tips" id="tips" data-icon="custom" data-theme="c">Dough</a></li>
+<li><a href="#page29" id="stuff" data-icon="custom" data-theme="c">Next</a></li>
+</ul>
+		</div>
+	
+	</div>
+</div><!-- /page 28 -->
+
+
+
+<div data-role="page" id="page29" data-add-back-btn="true"><!-- page 29-->
+
+	<div data-role="header" data-theme="a" data-position="inline">
+		<h1>Main Dish Pizza</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="a">
+	<p><strong>Japanese Pizza</strong></p>
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"> 
+<!-- <div id="image"><img src="images/r38.jpg"></div> -->
+
+<a href="#popupNYC" data-rel="popup" data-position-to="window">
+<img class="popphoto" src="images/r38.jpg" alt="Apple Pizza" style="float:right; padding:10px; width:35px height:35px"></a>
+
+<div data-role="popup" id="popupNYC" data-overlay-theme="a" data-theme="d" data-corners="true">
+					<a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="images/r38.jpg" style="style="max-width:100%;" alt="Apple Pizza">
+				</div>
+
+</div>
+</div><!-- /ui-grid-solo -->
+
+	<div class="ui-grid-solo">
+	<div class="ui-block-a">
+	<p><strong>Ingredients:</strong></p>>
+Serves 1 - 2<br>
+2 cups cabbage, finely shredded<br>
+1 cup leeks, well washed and chopped<br>
+2/3 cup whole wheat pastry flour<br>
+a couple pinches of fine grain sea salt<br>
+2 eggs, beaten<br>
+1+ tablespoon olive oil<br>
+Garnish: toasted slivered almonds, chives/ herbs
+</div>
+	</div><!-- /grid-a -->
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"><p><strong>Directions:</strong></p>
+Combine the cabbage, leeks, flour, and salt in a bowl. Toss until everything is coated with a dusting of flour. Stir in the eggs and mix until everything is evenly coated.
+<p>
+Heat a large skillet over medium heat and add a generous splash of olive oil. Scoop the cabbage mixture into the pan, and using a metal spatula press it into a round pancake shape, flat as you can get it. Cook for 4-5 minutes, or until the bottom is golden. To flip the okonomiyaki, slide it out of the skillet onto a plate. Place another plate on top and flip both (together) over. If you need a bit more oil in your skillet, add it now, before sliding the okonomiyaki back into the skillet. Again press down a bit with a spatula and cook until golden on this side - another 3 -5 minutes.</p>
+
+When you are finished cooking, sprinkle with toasted almonds and chives, and slide it onto a cutting board to cut into wedges. Enjoy immediately.
+
+
+
+	</div><!-- /grid-solo -->
+</div>
+	</div><!-- /content -->
+
+	<div data-role="footer" class="nav-glyphish-example" data-id="foo1" data-position="fixed">
+		<div data-role="navbar" class="nav-glyphish-example" data-grid="c">
+<ul>
+<li><a href="#menu"   id="home" data-icon="custom" data-theme="c">Menu</a></li>
+<li><a href="#info" id="history" data-icon="custom" data-theme="c">About</a></li>
+<li><a href="#tips" id="tips" data-icon="custom" data-theme="c">Dough</a></li>
+<li><a href="#page30" id="stuff" data-icon="custom" data-theme="c">Next</a></li>
+</ul>
+		</div>
+	
+	</div>
+</div><!-- /page 29 -->
+
+
+
+<div data-role="page" id="page30" data-add-back-btn="true"><!-- page 30 -->
+
+	<div data-role="header" data-theme="a" data-position="inline">
+		<h1>Desert Pizza</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="a">
+	<p><strong>Peach and Blueberry Pizza</strong></p>
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"> 
+<!-- <div id="image"><img src="images/r33.jpg"></div> -->
+
+<a href="#popupNYC" data-rel="popup" data-position-to="window">
+<img class="popphoto" src="images/r33.jpg" alt="Apple Pizza" style="float:right; padding:10px; width:35px height:35px"></a>
+
+<div data-role="popup" id="popupNYC" data-overlay-theme="a" data-theme="d" data-corners="true">
+					<a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="images/r33.jpg" style="style="max-width:100%;" alt="Apple Pizza">
+				</div>
+
+</div>
+</div><!-- /ui-grid-solo -->
+
+	<div class="ui-grid-solo">
+	<div class="ui-block-a">
+	<p><strong>Ingredients:</strong></p>
+
+3/4 cup plain whipped cream cheese<br>
+3 tbsp sweetened condensed milk<br>
+2 teaspoons Grand Marnier<br>
+12 teaspoon ground cinnamon<br>
+Pinch freshly grated nutmeg<br>
+Pinch fine sea salt<br>
+10-ounce Whole-Wheat Pizza Dough<br>
+1-pound bag frozen sliced peaches, thawed<br>
+1 cup fresh blueberries<br>
+14 cup chopped pistachios<br>
+1 tablespoon powdered sugar
+</div>
+	</div><!-- /grid-a -->
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"><p><strong>Directions:</strong></p>
+	Place a pizza stone in the center of the oven and preheat the oven to 500 degrees F.
+<p>
+In a medium bowl, combine the cream cheese, condensed milk, Grand Marnier, cinnamon, nutmeg, and sea salt and combine well.</p>
+
+Stretch half the dough into a 1/2-inch-thick 11-inch round. Place on a floured peel or pizza pan and spread with half of the cream cheese mixture. Arrange half the peach slices in the middle in a fan pattern. Scatter half the blueberries on top and sprinkle with half the pistachios.
+<p>
+Bake for 12 minutes or until the crust is golden brown. Set aside to cool for a few minutes, dust with powdered sugar, and use a pizza cutter to cut it into wedges. Repeat with remaining dough to make a second pizza.</p>
+
+	</div><!-- /grid-solo -->
+</div>
+	</div><!-- /content -->
+
+	<div data-role="footer" class="nav-glyphish-example" data-id="foo1" data-position="fixed">
+		<div data-role="navbar" class="nav-glyphish-example" data-grid="c">
+<ul>
+<li><a href="#menu"   id="home" data-icon="custom" data-theme="c">Menu</a></li>
+<li><a href="#info" id="history" data-icon="custom" data-theme="c">About</a></li>
+<li><a href="#tips" id="tips" data-icon="custom" data-theme="c">Dough</a></li>
+<li><a href="#page31" id="stuff" data-icon="custom" data-theme="c">Next</a></li>
+</ul>
+		</div>
+	
+	</div>
+</div><!-- /page 30-->
+
+
+
+<div data-role="page" id="page31" data-add-back-btn="true"><!-- page 31 -->
+
+	<div data-role="header" data-theme="a" data-position="inline">
+		<h1>Main Dish Pizza</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="a">
+	<p><strong>Pear & Blue Chees Flatbread</strong></p>
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"> 
+<!-- <div id="image"><img src="images/r7.jpg"></div> -->
+
+<a href="#popupNYC" data-rel="popup" data-position-to="window">
+<img class="popphoto" src="images/r7.jpg" alt="Apple Pizza" style="float:right; padding:10px; width:35px height:35px"></a>
+
+<div data-role="popup" id="popupNYC" data-overlay-theme="a" data-theme="d" data-corners="true">
+					<a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="images/r7.jpg" style="style="max-width:100%;" alt="Apple Pizza">
+				</div>
+
+</div>
+</div><!-- /ui-grid-solo -->
+
+	<div class="ui-grid-solo">
+	<div class="ui-block-a">
+	<p><strong>Ingredients:</strong></p>
+6 servings<br>
+2 teaspoons extra-virgin olive oil<br>
+3 cups thinly sliced onions<br>
+20 ounces whole-wheat pizza dough<br>
+1/3 cup chopped walnuts<br>
+2 teaspoons balsamic vinegar<br>
+2 teaspoons chopped fresh sage<br>
+Freshly ground pepper, to taste<br>
+2 ripe but firm pears, sliced<br>
+1/2 cup finely crumbled blue cheese
+</div>
+	</div><!-- /grid-a -->
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"><p><strong>Directions:</strong></p>
+	Place oven rack in the lowest position; preheat to 450°F. Coat a large baking sheet with cooking spray.
+<p>
+Heat oil in a large skillet over medium-high heat. Add onions and cook, stirring occasionally, until starting to brown, about 6 minutes. Reduce heat to low, cover and cook, stirring occasionally, until very soft and golden, 5 to 8 minutes more.</p>
+Meanwhile, roll out dough on a lightly floured surface to the size of the baking sheet. Transfer to the baking sheet. Bake until puffed and lightly crisped on the bottom, 8 to 10 minutes. Toast walnuts in a small dry skillet over medium-low heat, stirring, until lightly browned and fragrant, 2 to 3 minutes.
+<p>
+Stir vinegar, sage and pepper into the onions. Spread on the crust and top with pears, walnuts and cheese. Bake on the bottom rack until the crust is crispy and golden and the cheese is melted, 11 to 13 minutes. Slice and serve.</p>
+	</div><!-- /grid-solo -->
+</div>
+	</div><!-- /content -->
+
+	<div data-role="footer" class="nav-glyphish-example" data-id="foo1" data-position="fixed">
+		<div data-role="navbar" class="nav-glyphish-example" data-grid="c">
+<ul>
+<li><a href="#menu"   id="home" data-icon="custom" data-theme="c">Menu</a></li>
+<li><a href="#info" id="history" data-icon="custom" data-theme="c">About</a></li>
+<li><a href="#tips" id="tips" data-icon="custom" data-theme="c">Dough</a></li>
+<li><a href="#page32" id="stuff" data-icon="custom" data-theme="c">Next</a></li>
+</ul>
+		</div>
+	
+	</div>
+</div><!-- /page 31 -->
+
+
+
+<div data-role="page" id="page32" data-add-back-btn="true"><!-- page 32 -->
+
+	<div data-role="header" data-theme="a" data-position="inline">
+		<h1>Main Dish Pizza</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="a">
+	<p><strong>Pesto Pizza</strong></p>
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"> 
+<!-- <div id="image"><img src="images/r24.jpg"></div> -->
+
+<a href="#popupNYC" data-rel="popup" data-position-to="window">
+<img class="popphoto" src="images/r24.jpg" alt="Apple Pizza" style="float:right; padding:10px; width:35px height:35px"></a>
+
+<div data-role="popup" id="popupNYC" data-overlay-theme="a" data-theme="d" data-corners="true">
+					<a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="images/r24.jpg" style="style="max-width:100%;" alt="Apple Pizza">
+				</div>
+
+</div>
+</div><!-- /ui-grid-solo -->
+
+	<div class="ui-grid-solo">
+	<div class="ui-block-a">
+	<p><strong>Ingredients:</strong></p>>
+1 15 - inch pre-made pizza crust<br>
+1/2 cup vegetarian pesto sauce<br>
+6 ounce feta cheese, crumbled<br>
+1 6 ounce jar artichokes, drained and chopped<br>
+1/3 cup hydrated sun-dried tomatoes, sliced<br>
+1/2 cup chopped kalamata olives
+</div>
+	</div><!-- /grid-a -->
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"><p><strong>Directions:</strong></p>
+	Pre-heat oven to 400 degrees.
+<p>
+Spread pesto sauce over crust. Sprinkle on feta cheese. Add artichokes, sun-dried tomatoes and olives. 
+</p>
+Bake for 15 minutes or until heated through.
+<p>
+Makes 10 slices of vegetarian pizza.</p>
+	</div><!-- /grid-solo -->
+</div>
+	</div><!-- /content -->
+
+	<div data-role="footer" class="nav-glyphish-example" data-id="foo1" data-position="fixed">
+		<div data-role="navbar" class="nav-glyphish-example" data-grid="c">
+<ul>
+<li><a href="#menu"   id="home" data-icon="custom" data-theme="c">Menu</a></li>
+<li><a href="#info" id="history" data-icon="custom" data-theme="c">About</a></li>
+<li><a href="#tips" id="tips" data-icon="custom" data-theme="c">Dough</a></li>
+<li><a href="#page33" id="stuff" data-icon="custom" data-theme="c">Next</a></li>
+</ul>
+		</div>
+	
+	</div>
+</div><!-- /page 32 -->
+
+
+
+<div data-role="page" id="page33" data-add-back-btn="true"><!-- page 33 -->
+
+	<div data-role="header" data-theme="a" data-position="inline">
+		<h1>Main Dish Pizza</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="a">
+	<p><strong>Plum Pizza with Ricotta, Aprocot & Peanuts</strong></p>
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"> 
+<!-- <div id="image"><img src="images/r36.jpg"></div> -->
+
+<a href="#popupNYC" data-rel="popup" data-position-to="window">
+<img class="popphoto" src="images/r36.jpg" alt="Apple Pizza" style="float:right; padding:10px; width:35px height:35px"></a>
+
+<div data-role="popup" id="popupNYC" data-overlay-theme="a" data-theme="d" data-corners="true">
+					<a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="images/r36.jpg" style="style="max-width:100%;" alt="Apple Pizza">
+				</div>
+
+</div>
+</div><!-- /ui-grid-solo -->
+
+	<div class="ui-grid-solo">
+	<div class="ui-block-a">
+	<p><strong>Ingredients:</strong></p>>
+
+servings 4-6<br>
+
+1 recipe Quick Pizza Dough<br>
+2/3 cup apricot preserves<br>
+1/2 cup part-skim ricotta cheese<br>
+2 tablespoons confectioners' sugar<br>
+4 ripe plums, pitted and thinly sliced<br>
+1/3 cup chopped dry roasted peanuts
+</div>
+	</div><!-- /grid-a -->
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"><p><strong>Directions:</strong></p>
+	Preheat oven to 375 degrees F.
+<p>
+Unroll pie crust onto a large baking sheet.</p>
+
+Warm apricot preserves in the microwave for 30 seconds. Brush preserves all over the crust.
+<p>
+In a small bowl, combine ricotta cheese and confectioners' sugar. Mix well and spread mixture all over pie crust, to within 1/4-inch of the edges. Top ricotta with plum slices, making slightly overlapping rows. Sprinkle peanuts over top.</p>
+
+Bake 10 to 12 minutes, until crust and peanuts are golden brown.
+	</div><!-- /grid-solo -->
+</div>
+	</div><!-- /content -->
+
+	<div data-role="footer" class="nav-glyphish-example" data-id="foo1" data-position="fixed">
+		<div data-role="navbar" class="nav-glyphish-example" data-grid="c">
+<ul>
+<li><a href="#menu"   id="home" data-icon="custom" data-theme="c">Menu</a></li>
+<li><a href="#info" id="history" data-icon="custom" data-theme="c">About</a></li>
+<li><a href="#tips" id="tips" data-icon="custom" data-theme="c">Dough</a></li>
+<li><a href="#page34" id="stuff" data-icon="custom" data-theme="c">Next</a></li>
+</ul>
+		</div>
+	
+	</div>
+</div><!-- /page 33 -->
+
+
+
+<div data-role="page" id="page34" data-add-back-btn="true"><!-- page 34 -->
+
+	<div data-role="header" data-theme="a" data-position="inline">
+		<h1>Main Dish Pizza</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="a">
+	<p><strong>Pizza Margherita</strong></p>
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"> 
+<!-- <div id="image"><img src="images/r39.jpg"></div> -->
+
+<a href="#popupNYC" data-rel="popup" data-position-to="window">
+<img class="popphoto" src="images/r39.jpg" alt="Apple Pizza" style="float:right; padding:10px; width:35px height:35px"></a>
+
+<div data-role="popup" id="popupNYC" data-overlay-theme="a" data-theme="d" data-corners="true">
+					<a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="images/r39.jpg" style="style="max-width:100%;" alt="Apple Pizza">
+				</div>
+
+</div>
+</div><!-- /ui-grid-solo -->
+
+	<div class="ui-grid-solo">
+	<div class="ui-block-a">
+	<p><strong>Ingredients:</strong></p>>
+
+1 cup warm water<br>
+10 ounce bread flour <br>
+1 package dry yeast <br>
+4 teaspoons olive oil <br>
+3/4 teaspoon kosher salt<br>
+Cooking spray<br>
+1 tablespoon yellow cornmeal<br>
+3/4 cup Basic Pizza Sauce<br>
+1 1/4 cups thinly sliced fresh mozzarella cheese<br>
+1/3 cup small fresh basil leaves
+</div>
+	</div><!-- /grid-a -->
+	<div class="ui-grid-solo">
+Pour 3/4 cup warm water in the bowl of a stand mixer with dough hook attached. Weigh or lightly spoon flour into dry measuring cups and spoons; level with a knife. Add flour to 3/4 cup water; mix until combined. Cover and let stand 20 minutes. Combine remaining 1/4 cup water and yeast in a small bowl; let stand 5 minutes or until bubbly. Add yeast mixture, oil, and 1/2 teaspoon salt to flour mixture; mix 5 minutes or until a soft dough forms. Place dough in a large bowl coated with cooking spray; cover surface of dough with plastic wrap lightly coated with cooking spray. Refrigerate 24 hours.
+<p>
+Remove dough from refrigerator. Let stand, covered, 1 hour or until dough comes to room temperature. Punch dough down. Press dough out to a 12-inch circle on a lightly floured baking sheet, without raised sides, sprinkled with cornmeal. Crimp edges to form a 1/2-inch border. Cover dough loosely with plastic wrap.
+</p>
+Position an oven rack in the lowest setting. Place a pizza stone on lowest rack. Preheat oven to 550°. Preheat the pizza stone for 30 minutes before baking dough.
+<p>
+Remove plastic wrap from dough. Sprinkle dough with the remaining 1/4 teaspoon salt. Spread Basic Pizza Sauce evenly over dough, leaving a 1/2-inch border. Arrange cheese slices evenly over pizza. Slide pizza onto preheated pizza stone, using a spatula as a guide. Bake at 550° for 11 minutes or until the crust is golden. Cut pizza into 10 wedges, and sprinkle evenly with basil.</p>
+	</div><!-- /grid-solo -->
+</div>
+	</div><!-- /content -->
+
+	<div data-role="footer" class="nav-glyphish-example" data-id="foo1" data-position="fixed">
+		<div data-role="navbar" class="nav-glyphish-example" data-grid="c">
+<ul>
+<li><a href="#menu"   id="home" data-icon="custom" data-theme="c">Menu</a></li>
+<li><a href="#info" id="history" data-icon="custom" data-theme="c">About</a></li>
+<li><a href="#tips" id="tips" data-icon="custom" data-theme="c">Dough</a></li>
+<li><a href="#page35" id="stuff" data-icon="custom" data-theme="c">Next</a></li>
+</ul>
+		</div>
+	
+	</div>
+</div><!-- /page 34 -->
+
+
+<div data-role="page" id="page35" data-add-back-btn="true"><!-- page 35 -->
+
+	<div data-role="header" data-theme="a" data-position="inline">
+		<h1>Main Dish Pizza</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="a">
+	<p><strong>Pizza with White Bean Puree & Fresh Tomatoes</strong></p>
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"> 
+<!-- <div id="image"><img src="images/r11.jpg"></div> -->
+
+<a href="#popupNYC" data-rel="popup" data-position-to="window">
+<img class="popphoto" src="images/r11.jpg" alt="Apple Pizza" style="float:right; padding:10px; width:35px height:35px"></a>
+
+<div data-role="popup" id="popupNYC" data-overlay-theme="a" data-theme="d" data-corners="true">
+					<a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="images/r11.jpg" style="style="max-width:100%;" alt="Apple Pizza">
+				</div>
+
+</div>
+</div><!-- /ui-grid-solo -->
+
+	<div class="ui-grid-solo">
+	<div class="ui-block-a">
+	<p><strong>Ingredients:</strong></p>
+
+6 servings<br>
+Cornmeal for dusting baking sheets<br>
+1 pound Quick Pizza Dough<br>
+1 cup White Bean Puree<br>
+(recipe in HOWTOS)<br>
+6 vine-ripened plum tomatoes, sliced<br>
+2 scallions, thinly sliced<br>
+4 tablespoons freshly grated Parmesan cheese<br>
+1/2 teaspoon crushed red pepper<br>
+Olive oil cooking spray
+
+</div>
+	</div><!-- /grid-a -->
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"><p><strong>Directions:</strong></p>
+Set oven rack in lowest position. Preheat oven to 500°F or the highest setting. Sprinkle 2 large baking sheets with cornmeal.
+<p>
+Divide pizza dough in half. Roll out one half of the dough on a lightly floured surface into a 12-inch circle. Transfer the dough to the prepared pan. Pierce the dough several times with a fork to prevent air bubbles from forming. Prebake the crust until lightly browned, 5 to 6 minutes. Repeat with remaining half of dough.</p>
+Spread the crust with half of the white bean puree. Sprinkle 1 tablespoon Parmesan over the puree. Arrange half of the tomato slices evenly over the pizza; sprinkle with half of the scallions, another 1 tablespoon Parmesan and 1/4 teaspoon crushed red pepper.
+<p>
+Lightly mist with olive oil cooking spray. Bake the pizza until the bottom and edges of crust are browned, about 5 minutes. Repeat with remaining toppings on second crust. Slice and serve.</p>
+	</div><!-- /grid-solo -->
+</div>
+	</div><!-- /content -->
+
+	<div data-role="footer" class="nav-glyphish-example" data-id="foo1" data-position="fixed">
+		<div data-role="navbar" class="nav-glyphish-example" data-grid="c">
+<ul>
+<li><a href="#menu"   id="home" data-icon="custom" data-theme="c">Menu</a></li>
+<li><a href="#info" id="history" data-icon="custom" data-theme="c">About</a></li>
+<li><a href="#tips" id="tips" data-icon="custom" data-theme="c">Dough</a></li>
+<li><a href="#page36" id="stuff" data-icon="custom" data-theme="c">Next</a></li>
+</ul>
+		</div>
+	
+	</div>
+</div><!-- /page 35 -->
+
+
+
+<div data-role="page" id="page36" data-add-back-btn="true"><!-- page 36 -->
+
+	<div data-role="header" data-theme="a" data-position="inline">
+		<h1>Main Dish Pizza</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="a">
+	<p><strong>Pumpkin Pizza</strong></p>
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"> 
+<!-- <div id="image"><img src="images/r22.jpg"></div> -->
+
+<a href="#popupNYC" data-rel="popup" data-position-to="window">
+<img class="popphoto" src="images/r22.jpg" alt="Apple Pizza" style="float:right; padding:10px; width:35px height:35px"></a>
+
+<div data-role="popup" id="popupNYC" data-overlay-theme="a" data-theme="d" data-corners="true">
+					<a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="images/r22.jpg" style="style="max-width:100%;" alt="Apple Pizza">
+				</div>
+
+</div>
+</div><!-- /ui-grid-solo -->
+
+	<div class="ui-grid-solo">
+	<div class="ui-block-a">
+	<p><strong>Ingredients:</strong></p>
+
+1 1/4 cups roasted pumpkin, cubed<br>
+1 tsp basil pesto<br>
+3/4 cup prepared pizza dough<br>
+1/4 cup grated mozzarella cheese<br>
+2 Tbsp cashews, roasted, salted and crushed<br>
+1 1/4 Tbsp white cream sauce<br>
+2 1/2 Tbsp goat cheese, crumbled<br>
+2 1/2 Tbsp Parmesan cheese, grated<br>
+1 tsp fresh chopped parsley<br>
+2 tsp extra cashews, chopped<br>
+2 tsp extra Parmesan cheese, grated<br>
+</div>
+	</div><!-- /grid-a -->
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"><p><strong>Directions:</strong></p>
+	Preheat the oven to 500 degrees.
+<p>
+Gently toss roasted pumpkin with basil pesto to lightly coat evenly. Set aside. Roll out pizza dough and spread evenly with a layer of mozzarella cheese. Add crushed cashews and cubes of pumpkin. Drizzle with white cream sauce.</p>
+
+Scatter crumbled goat cheese and grated Parmesan evenly over the surface.
+<p>
+Cook pizza for seven to 10 minutes at 500 degrees Fahrenheit. Remove from the oven and cut into slices.</p>
+
+Garnish with fresh parsley, extra cashews and Parmesan cheese before serving.
+	</div><!-- /grid-solo -->
+</div>
+	</div><!-- /content -->
+
+	<div data-role="footer" class="nav-glyphish-example" data-id="foo1" data-position="fixed">
+		<div data-role="navbar" class="nav-glyphish-example" data-grid="c">
+<ul>
+<li><a href="#menu"   id="home" data-icon="custom" data-theme="c">Menu</a></li>
+<li><a href="#info" id="history" data-icon="custom" data-theme="c">About</a></li>
+<li><a href="#tips" id="tips" data-icon="custom" data-theme="c">Dough</a></li>
+<li><a href="#page37" id="stuff" data-icon="custom" data-theme="c">Next</a></li>
+</ul>
+		</div>
+	
+	</div>
+</div><!-- /page 36 -->
+
+
+<div data-role="page" id="page37" data-add-back-btn="true"><!-- page 37 -->
+
+	<div data-role="header" data-theme="a" data-position="inline">
+		<h1>Desert Pizza</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="a">
+	<p><strong>Rasberry - Almond Pizza</strong></p>
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"> 
+<!-- <div id="image"><img src="images/r35.jpg"></div> -->
+
+<a href="#popupNYC" data-rel="popup" data-position-to="window">
+<img class="popphoto" src="images/r35.jpg" alt="Apple Pizza" style="float:right; padding:10px; width:35px height:35px"></a>
+
+<div data-role="popup" id="popupNYC" data-overlay-theme="a" data-theme="d" data-corners="true">
+					<a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="images/r35.jpg" style="style="max-width:100%;" alt="Apple Pizza">
+				</div>
+
+</div>
+</div><!-- /ui-grid-solo -->
+
+	<div class="ui-grid-solo">
+	<div class="ui-block-a">
+	<p><strong>Ingredients:</strong></p>
+1 pound pizza dough<br>
+1/4 cup raspberry jam<br>
+1/3 cup mascarpone or cream cheese<br>
+confectioners' sugar and 1/2 teaspoon vanilla<br>
+toasted almonds
+</div>
+	</div><!-- /grid-a -->
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"><p><strong>Directions:</strong></p>
+	Preheat a baking sheet in a 450 degrees F oven. 
+<p>
+Roll out 1 pound pizza dough into a 12-inch round. Brush with melted butter and sprinkle with sugar. </p>
+
+Bake on the hot baking sheet until golden, about 8 minutes. Brush with 1/4 cup raspberry jam, then bake 2 more minutes. Cool slightly. 
+<p>
+Beat 1/3 cup mascarpone or cream cheese with 3 tablespoons confectioners' sugar and 1/2 teaspoon vanilla. Spread over the pizza and top with raspberries, toasted almonds and confectioners' sugar.</p>
+
+	</div><!-- /grid-solo -->
+</div>
+	</div><!-- /content -->
+
+	<div data-role="footer" class="nav-glyphish-example" data-id="foo1" data-position="fixed">
+		<div data-role="navbar" class="nav-glyphish-example" data-grid="c">
+<ul>
+<li><a href="#menu"   id="home" data-icon="custom" data-theme="c">Menu</a></li>
+<li><a href="#info" id="history" data-icon="custom" data-theme="c">About</a></li>
+<li><a href="#tips" id="tips" data-icon="custom" data-theme="c">Dough</a></li>
+<li><a href="#page38" id="stuff" data-icon="custom" data-theme="c">Next</a></li>
+</ul>
+		</div>
+	
+	</div>
+</div><!-- /page 37 -->
+
+
+<div data-role="page" id="page38" data-add-back-btn="true"><!-- page 38 -->
+
+	<div data-role="header" data-theme="a" data-position="inline">
+		<h1>Main Dish Pizza</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="a">
+	<p><strong>Rousted Beet Pizza</strong></p>
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"> 
+<!-- <div id="image"><img src="images/r44.jpg"></div> -->
+
+<a href="#popupNYC" data-rel="popup" data-position-to="window">
+<img class="popphoto" src="images/r44.jpg" alt="Apple Pizza" style="float:right; padding:10px; width:35px height:35px"></a>
+
+<div data-role="popup" id="popupNYC" data-overlay-theme="a" data-theme="d" data-corners="true">
+					<a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="images/r44.jpg" style="style="max-width:100%;" alt="Apple Pizza">
+				</div>
+
+</div>
+</div><!-- /ui-grid-solo -->
+
+	<div class="ui-grid-solo">
+	<div class="ui-block-a">
+	<p><strong>Ingredients:</strong></p>
+
+1 (4-ounce) golden beet<br>
+1 teaspoon olive oil <br>
+1 (10-inch) Quick Pizza Dough<br>
+1/2 cup (2 ounces) crumbled feta cheese <br>
+1/4 cup vertically sliced shallots<br>
+1/4 teaspoon kosher salt<br>
+1 teaspoon honey
+</div>
+	</div><!-- /grid-a -->
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"><p><strong>Directions:</strong></p>
+Preheat oven to 450°.
+<p>
+Leave root and 1 inch of stem on beet; scrub with a brush. Wrap beet in foil. Bake at 450° for 40 minutes or until tender. Remove from oven; cool. Trim off beet root; rub off skin. Cut beet in half crosswise; thinly slice halves.</p>
+Position an oven rack in the lowest setting. Place a pizza stone on lowest rack.
+<p>
+Increase oven temperature to 500°. Preheat pizza stone 30 minutes before baking pizza.</p>
+
+Gently brush oil over Basic Pizza Dough. Arrange cheese, beet slices, and shallots evenly over dough, leaving a 1/2-inch border. Slide dough onto preheated pizza stone, using a spatula as a guide.
+<p>
+Bake at 500° F for 8 minutes or until crust is golden. Remove from pizza stone. Sprinkle with salt, and drizzle with honey. Cut into 8 wedges.</p>
+	</div><!-- /grid-solo -->
+</div>
+	</div><!-- /content -->
+
+	<div data-role="footer" class="nav-glyphish-example" data-id="foo1" data-position="fixed">
+		<div data-role="navbar" class="nav-glyphish-example" data-grid="c">
+<ul>
+<li><a href="#menu"   id="home" data-icon="custom" data-theme="c">Menu</a></li>
+<li><a href="#info" id="history" data-icon="custom" data-theme="c">About</a></li>
+<li><a href="#tips" id="tips" data-icon="custom" data-theme="c">Dough</a></li>
+<li><a href="#page39" id="stuff" data-icon="custom" data-theme="c">Next</a></li>
+</ul>
+		</div>
+	
+	</div>
+</div><!-- /page 38 -->
+
+
+<div data-role="page" id="page39" data-add-back-btn="true"><!-- page 39 -->
+
+	<div data-role="header" data-theme="a" data-position="inline">
+		<h1>Main Dish Pizza</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="a">
+	<p><strong>Rousted Veggies & Ricotta Pizza</strong></p>
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"> 
+<!-- <div id="image"><img src="images/r43.jpg"></div> -->
+
+<a href="#popupNYC" data-rel="popup" data-position-to="window">
+<img class="popphoto" src="images/r43.jpg" alt="Apple Pizza" style="float:right; padding:10px; width:35px height:35px"></a>
+
+<div data-role="popup" id="popupNYC" data-overlay-theme="a" data-theme="d" data-corners="true">
+					<a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="images/r43.jpg" style="style="max-width:100%;" alt="Apple Pizza">
+				</div>
+
+</div>
+</div><!-- /ui-grid-solo -->
+
+	<div class="ui-grid-solo">
+	<div class="ui-block-a">
+	<p><strong>Ingredients:</strong></p>
+1 pound refrigerated fresh pizza dough<br>
+2 cups sliced cremini mushrooms<br>
+1 cup (1/4-inch-thick) slices zucchini<br>
+1/4 teaspoon black pepper<br>
+1 medium yellow bell pepper, sliced<br>
+1 medium red onion, cut into thick slices<br>
+5 1/2 teaspoons olive oil, divided <br>
+1 tablespoon yellow cornmeal<br>
+1/3 cup tomato sauce <br>
+1 cup (4 ounces) shredded part-skim mozzarella cheese<br>
+1/2 teaspoon crushed red pepper<br>
+1/3 cup part-skim ricotta cheese<br>
+2 tablespoons small fresh basil leaves
+</div>
+	</div><!-- /grid-a -->
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"><p><strong>Directions:</strong></p>
+Position an oven rack in the lowest setting; place a pizza stone on rack. Preheat oven to 500° F.
+<p>
+Remove dough from refrigerator. Let stand, covered, for 30 minutes.</p>
+
+Combine mushrooms and next 4 ingredients (through onion) in a large bowl; drizzle with 1 1/2 tablespoons oil. Toss. Arrange vegetables on a jelly-roll pan. Bake at 500° for 15 minutes.
+<p>
+Punch dough down. Sprinkle a lightly floured baking sheet with cornmeal; roll dough out to 15-inch circle on prepared baking sheet. Brush dough with 1 teaspoon oil. Spread sauce over dough, leaving a 1/2-inch border. Sprinkle 1/2 cup mozzarella over sauce; top with vegetables. Sprinkle 1/2 cup mozzarella and red pepper over zucchini mixture. Dollop with ricotta. Slide pizza onto preheated pizza stone. Bake at 500° for 11 minutes or until crust is golden. Sprinkle with basil.</p>
+	</div><!-- /grid-solo -->
+</div>
+	</div><!-- /content -->
+
+	<div data-role="footer" class="nav-glyphish-example" data-id="foo1" data-position="fixed">
+		<div data-role="navbar" class="nav-glyphish-example" data-grid="c">
+<ul>
+<li><a href="#menu"   id="home" data-icon="custom" data-theme="c">Menu</a></li>
+<li><a href="#info" id="history" data-icon="custom" data-theme="c">About</a></li>
+<li><a href="#tips" id="tips" data-icon="custom" data-theme="c">Dough</a></li>
+<li><a href="#page40" id="stuff" data-icon="custom" data-theme="c">Next</a></li>
+</ul>
+		</div>
+	
+	</div>
+</div><!-- /page 39 -->
+
+
+
+<div data-role="page" id="page40" data-add-back-btn="true"><!-- page 40 -->
+
+	<div data-role="header" data-theme="a" data-position="inline">
+		<h1>Main Dish Pizza</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="a">
+	<p><strong>Sausage Substitude Pizza</strong></p>
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"> 
+<!-- <div id="image"><img src="images/r20.jpg"></div> -->
+
+<a href="#popupNYC" data-rel="popup" data-position-to="window">
+<img class="popphoto" src="images/r20.jpg" alt="Apple Pizza" style="float:right; padding:10px; width:35px height:35px"></a>
+
+<div data-role="popup" id="popupNYC" data-overlay-theme="a" data-theme="d" data-corners="true">
+					<a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="images/r20.jpg" style="style="max-width:100%;" alt="Apple Pizza">
+				</div>
+
+</div>
+</div><!-- /ui-grid-solo -->
+
+	<div class="ui-grid-solo">
+	<div class="ui-block-a">
+	<p><strong>Ingredients:</strong></p>
+
+1 package (12 oz) vegetarian sausages <br>
+1 tablespoon olive oil<br>
+1 recipe Quick Pizza Dough<br>
+3/4 cup tomato sauce<br>
+1 14-ounce can artichoke hearts, drained and chopped<br>
+1 cup non-dairy vegan mozzarella cheese substitute, grated<br>
+1/4 cup prepared vegan pesto
+</div>
+	</div><!-- /grid-a -->
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"><p><strong>Directions:</strong></p>
+	Pre-heat oven to 450 degrees.
+<p>
+In a skillet, heat oil over medium heat. Add vegetarian sausages; cook 6-8 minutes or until browned. Cut into 1/2-inch rounds.</p>
+
+Place pizza crust on baking sheet and spread with tomato sauce, leaving a 1-inch border. Scatter sausage and artichokes on top, then sprinkle with non-dairy cheese.
+<p>
+Bake pizza for 12-14 minutes or until cheese is melted and golden.</p>
+
+Remove from oven, dot with pesto; bake 2 minutes more.
+<p>
+Makes 8 slices of vegetarian "sausage" pizza.</p>
+	</div><!-- /grid-solo -->
+</div>
+	</div><!-- /content -->
+
+	<div data-role="footer" class="nav-glyphish-example" data-id="foo1" data-position="fixed">
+		<div data-role="navbar" class="nav-glyphish-example" data-grid="c">
+<ul>
+<li><a href="#menu"   id="home" data-icon="custom" data-theme="c">Menu</a></li>
+<li><a href="#info" id="history" data-icon="custom" data-theme="c">About</a></li>
+<li><a href="#tips" id="tips" data-icon="custom" data-theme="c">Dough</a></li>
+<li><a href="#page41" id="stuff" data-icon="custom" data-theme="c">Next</a></li>
+</ul>
+		</div>
+	
+	</div>
+</div><!-- /page 40 -->
+
+
+
+<div data-role="page" id="page41" data-add-back-btn="true"><!-- page 41 -->
+
+	<div data-role="header" data-theme="a" data-position="inline">
+		<h1>Main Dish Pizza</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="a">
+	<p><strong>Smoky Corn & Black Bean Pizza</strong></p>
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"> 
+<!-- <div id="image"><img src="images/r8.jpg"></div> -->
+
+<a href="#popupNYC" data-rel="popup" data-position-to="window">
+<img class="popphoto" src="images/r8.jpg" alt="Apple Pizza" style="float:right; padding:10px; width:35px height:35px"></a>
+
+<div data-role="popup" id="popupNYC" data-overlay-theme="a" data-theme="d" data-corners="true">
+					<a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="images/r8.jpg" style="style="max-width:100%;" alt="Apple Pizza">
+				</div>
+
+</div>
+</div><!-- /ui-grid-solo -->
+
+	<div class="ui-grid-solo">
+	<div class="ui-block-a">
+	<p><strong>Ingredients:</strong></p>
+
+6 servings<br>
+
+1 plum tomato, diced<br>
+1 cup canned black beans, rinsed<br>
+1 cup fresh corn kernels<br>
+2 tablespoons cornmeal<br>
+1 pound whole-wheat pizza dough<br>
+1/3 cup barbecue sauce<br>
+1 cup shredded mozzarella, preferably smoked mozzarella
+
+</div>
+	</div><!-- /grid-a -->
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"><p><strong>Directions:</strong></p>
+	Preheat grill to medium.
+<p>
+Combine tomato, beans and corn in a medium bowl. Sprinkle cornmeal onto a large baking sheet. Stretch the dough into about a 12-inch circle and lay it on top of the cornmeal, coating the entire underside of the dough.</p>
+Transfer the crust from the baking sheet to the grill. Close the lid and cook until the crust is puffed and lightly browned on the bottom, 4 to 5 minutes.
+<p>
+Using a large spatula, flip the crust. Spread barbecue sauce on it and quickly sprinkle with the tomato mixture and cheese. Close the lid; grill until the cheese is melted and the bottom of the crust is browned, 4 to 5 minutes.</p>
+	</div><!-- /grid-solo -->
+</div>
+	</div><!-- /content -->
+
+	<div data-role="footer" class="nav-glyphish-example" data-id="foo1" data-position="fixed">
+		<div data-role="navbar" class="nav-glyphish-example" data-grid="c">
+<ul>
+<li><a href="#menu"   id="home" data-icon="custom" data-theme="c">Menu</a></li>
+<li><a href="#info" id="history" data-icon="custom" data-theme="c">About</a></li>
+<li><a href="#tips" id="tips" data-icon="custom" data-theme="c">Dough</a></li>
+<li><a href="#page42" id="stuff" data-icon="custom" data-theme="c">Next</a></li>
+</ul>
+		</div>
+	
+	</div>
+</div><!-- /page 41 -->
+
+
+
+<div data-role="page" id="page42" data-add-back-btn="true"><!-- page 42-->
+
+	<div data-role="header" data-theme="a" data-position="inline">
+		<h1>Main Dish Pizza</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="a">
+	<p><strong>Spinach & Sun-Dried Tomato Stuffed Pizza</strong></p>
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"> 
+<!-- <div id="image"><img src="images/r2.jpg"></div> -->
+
+<a href="#popupNYC" data-rel="popup" data-position-to="window">
+<img class="popphoto" src="images/r2.jpg" alt="Apple Pizza" style="float:right; padding:10px; width:35px height:35px"></a>
+
+<div data-role="popup" id="popupNYC" data-overlay-theme="a" data-theme="d" data-corners="true">
+					<a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="images/r2.jpg" style="style="max-width:100%;" alt="Apple Pizza">
+				</div>
+
+</div>
+</div><!-- /ui-grid-solo -->
+
+	<div class="ui-grid-solo">
+	<div class="ui-block-a">
+	<p><strong>Ingredients:</strong></p>
+
+6 servings<br>
+
+Cooking spray, preferably canola or olive oil<br>
+1 14-ounce package firm water-packed tofu, drained<br>
+1 10-ounce package frozen chopped spinach, thawed and squeezed dry<br>
+1/2 cup chopped soft or reconstituted sun-dried tomatoes <br>
+1/2 cup finely shredded Parmesan cheese<br>
+1/2 cup shredded part-skim mozzarella cheese<br>
+1/4 cup chopped fresh basil<br>
+1/2 teaspoon onion powder<br>
+1/4 teaspoon salt<br>
+1/4 teaspoon freshly ground pepper<br>
+1 pound whole-wheat pizza dough
+</div>
+	</div><!-- /grid-a -->
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"><p><strong>Directions:</strong></p>
+	Position rack in lower third of oven; preheat to 475°F. Coat a large baking sheet with cooking spray.
+<p>
+Finely crumble tofu; pat dry. Place in a large bowl and use your hands to combine with spinach, tomatoes, Parmesan, mozzarella, basil, onion powder, salt and pepper.</p>
+
+Roll out dough on a lightly floured surface to about the length of the prepared baking sheet and twice as wide (approximately 16 by 18 inches). Transfer the dough to the baking sheet, allowing the extra width to hang over on one side onto a clean surface. 
+<p>
+Spread the filling on the dough in the pan, leaving a 1-inch border. Fold the overhanging dough over the filling. Fold the edges closed and crimp with a fork to seal. Make several small slits in the top to vent steam; lightly coat the top with cooking spray.</p>
+
+Bake the stuffed pizza until well browned on top, 18 to 20 minutes. Let cool slightly before cutting.
+	</div><!-- /grid-solo -->
+</div>
+	</div><!-- /content -->
+
+	<div data-role="footer" class="nav-glyphish-example" data-id="foo1" data-position="fixed">
+		<div data-role="navbar" class="nav-glyphish-example" data-grid="c">
+<ul>
+<li><a href="#menu"   id="home" data-icon="custom" data-theme="c">Menu</a></li>
+<li><a href="#info" id="history" data-icon="custom" data-theme="c">About</a></li>
+<li><a href="#tips" id="tips" data-icon="custom" data-theme="c">Dough</a></li>
+<li><a href="#page43" id="stuff" data-icon="custom" data-theme="c">Next</a></li>
+</ul>
+		</div>
+	
+	</div>
+</div><!-- /page 42-->
+
+
+
+<div data-role="page" id="page43" data-add-back-btn="true"><!-- page 43-->
+
+	<div data-role="header" data-theme="a" data-position="inline">
+		<h1>Main Dish Pizza</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="a">
+	<p><strong>Thai Appetizer Pizza</strong></p>
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"> 
+<!-- <div id="image"><img src="images/r14.jpg"></div> -->
+
+<a href="#popupNYC" data-rel="popup" data-position-to="window">
+<img class="popphoto" src="images/r14.jpg" alt="Apple Pizza" style="float:right; padding:10px; width:35px height:35px"></a>
+
+<div data-role="popup" id="popupNYC" data-overlay-theme="a" data-theme="d" data-corners="true">
+					<a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="images/r14.jpg" style="style="max-width:100%;" alt="Apple Pizza">
+				</div>
+
+</div>
+</div><!-- /ui-grid-solo -->
+
+	<div class="ui-grid-solo">
+	<div class="ui-block-a">
+	<p><strong>Ingredients:</strong></p>
+
+	<p> 2 cans (8 oz each) Pillsbury® refrigerated crescent dinner rolls or 2 cans (8 oz each) Pillsbury® Crescent Recipe Creations® refrigerated seamless dough sheet</p>
+
+1/2 cup chive-and-onion cream cheese spread (from 8-oz container)<br>
+1/4 cup creamy peanut butter<br>
+1/2 teaspoon ground ginger<br>
+1/4 teaspoon ground red pepper (cayenne)<br>
+1/2 cup shredded carrot (about 1 small)<br>
+1/2 cup chopped red bell pepper (1/2 medium)<br>
+1/2 cup chopped seeded cucumber (1/2 small)<br>
+1/4 cup chopped salted peanuts<br>
+1/4 cup chopped fresh cilantro
+</div>
+	</div><!-- /grid-a -->
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"><p><strong>Directions:</strong></p>
+	Heat oven to 375°F.
+<p>
+If using crescent rolls: Unroll both cans of dough; separate into 4 long rectangles. Place rectangles in ungreased 15x10x1-inch pan; press in bottom and up sides to form crust. If using dough sheets: Unroll both cans of dough. Place rectangles in ungreased 15x10x1-inch pan; press in bottom and up sides to form crust.</p>
+
+Bake 13 to 17 minutes or until golden brown. Cool completely, about 30 minutes.
+<p>
+In small bowl, mix cream cheese spread, peanut butter, ginger and ground red pepper. Spread over cooled crust. Top with carrot, bell pepper, cucumber and peanuts. Serve immediately, or cover and refrigerate up to 2 hours before serving.</p>
+
+Just before serving, sprinkle with cilantro. Cut into squares.
+	</div><!-- /grid-solo -->
+</div>
+	</div><!-- /content -->
+
+	<div data-role="footer" class="nav-glyphish-example" data-id="foo1" data-position="fixed">
+		<div data-role="navbar" class="nav-glyphish-example" data-grid="c">
+<ul>
+<li><a href="#menu"   id="home" data-icon="custom" data-theme="c">Menu</a></li>
+<li><a href="#info" id="history" data-icon="custom" data-theme="c">About</a></li>
+<li><a href="#tips" id="tips" data-icon="custom" data-theme="c">Dough</a></li>
+<li><a href="#page44" id="stuff" data-icon="custom" data-theme="c">Next</a></li>
+</ul>
+		</div>
+	
+	</div>
+</div><!-- /page 43 -->
+
+
+
+<div data-role="page" id="page44" data-add-back-btn="true"><!-- page 44 -->
+
+	<div data-role="header" data-theme="a" data-position="inline">
+		<h1>Main Dish Pizza</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="a">
+	<p><strong>Veggi BBQ Chicken Wing Pizza</strong></p>
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"> 
+<!-- <div id="image"><img src="images/r23.jpg"></div> -->
+
+<a href="#popupNYC" data-rel="popup" data-position-to="window">
+<img class="popphoto" src="images/r23.jpg" alt="Apple Pizza" style="float:right; padding:10px; width:35px height:35px"></a>
+
+<div data-role="popup" id="popupNYC" data-overlay-theme="a" data-theme="d" data-corners="true">
+					<a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="images/r23.jpg" style="style="max-width:100%;" alt="Apple Pizza">
+				</div>
+
+</div>
+</div><!-- /ui-grid-solo -->
+
+	<div class="ui-grid-solo">
+	<div class="ui-block-a">
+	<p><strong>Ingredients:</strong></p>>
+
+1 package gardein-brand bbq "chicken" wings and sauce<br>
+1 Recipe Quick Pizza Dough<br>
+1/2 cup red onion, diced small<br>
+1/2 cup red bell pepper, diced small<br>
+1 cup mozzarella cheese or vegan substitute<br>
+1 tbsp fresh chopped cilantro<br>
+fresh ground black pepper, to taste<br>
+1 lime wedge
+</div>
+	</div><!-- /grid-a -->
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"><p><strong>Directions:</strong></p>
+	Pre-heat oven to 400 degrees.
+<p>
+Thaw gardein vegetarian chicken wings and cut into 1/4-inch strips.</p>
+
+Spead barbecue sauce on pizza crust and top with red onion, red pepper, mozzarella cheese and sliced barbecue chicken wings.
+<p>
+Bake pizza for 10-15 minutes, or until cheese has melted and crust is golden brown and crispy.</p>
+
+Garnish with fresh ground black pepper, fresh chopped cilantro and lime wedge.
+<p>
+Enjoy your vegetarian barbecue chicken wing pizza!</p>
+	</div><!-- /grid-solo -->
+</div>
+	</div><!-- /content -->
+
+	<div data-role="footer" class="nav-glyphish-example" data-id="foo1" data-position="fixed">
+		<div data-role="navbar" class="nav-glyphish-example" data-grid="c">
+<ul>
+<li><a href="#menu"   id="home" data-icon="custom" data-theme="c">Menu</a></li>
+<li><a href="#info" id="history" data-icon="custom" data-theme="c">About</a></li>
+<li><a href="#tips" id="tips" data-icon="custom" data-theme="c">Dough</a></li>
+<li><a href="#page45" id="stuff" data-icon="custom" data-theme="c">Next</a></li>
+</ul>
+		</div>
+	
+	</div>
+</div><!-- /page 2-->
+
+
+
+<div data-role="page" id="page45" data-add-back-btn="true"><!-- page 3 -->
+
+	<div data-role="header" data-theme="a" data-position="inline">
+		<h1>Main Dish Pizza</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="a">
+	<p><strong>Veggi Grilled Pizza</strong></p>
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"> 
+<!-- <div id="image"><img src="images/r41.jpg"></div> -->
+
+<a href="#popupNYC" data-rel="popup" data-position-to="window">
+<img class="popphoto" src="images/r41.jpg" alt="Apple Pizza" style="float:right; padding:10px; width:35px height:35px"></a>
+
+<div data-role="popup" id="popupNYC" data-overlay-theme="a" data-theme="d" data-corners="true">
+					<a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="images/r41.jpg" style="style="max-width:100%;" alt="Apple Pizza">
+				</div>
+
+</div>
+</div><!-- /ui-grid-solo -->
+
+	<div class="ui-grid-solo">
+	<div class="ui-block-a">
+	<p><strong>Ingredients:</strong></p>
+1 cup warm water <br>
+10 ounce bread flour (about 2 cups plus 2 tablespoons)<br>
+1 package dry yeast (about 2 1/4 teaspoons)<br>
+10 teaspoon olive oil, divided <br>
+1 teaspoon kosher salt, divided<br>
+Cooking spray<br>
+2 tablespoons yellow cornmeal<br>
+12 ounces baby eggplant, cut crosswise into 1-inch-thick slices<br>
+1 medium zucchini, cut crosswise into 1-inch-thick slices <br>
+1 large red bell pepper, quartered and seeded <br>
+3 garlic cloves, minced<br>
+2/3 cup Basic Pizza Sauce<br>
+1/4 teaspoon freshly ground black pepper<br>
+1 cup (4 ounces) shredded fontina cheese<br>
+1/4 cup small mint leaves<br>
+2 teaspoons fresh thyme leaves
+</div>
+	</div><!-- /grid-a -->
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"><p><strong>Directions:</strong></p>
+Pour 3/4 cup warm water in the bowl of a stand mixer with dough hook attached. Weigh or lightly spoon flour into dry measuring cups and spoons; level with a knife. Add flour to 3/4 cup water; mix until combined. Cover and let stand 20 minutes. Combine remaining 1/4 cup water and yeast in a small bowl; let stand 5 minutes or until bubbly. Add yeast mixture, 4 teaspoons oil, and 1/2 teaspoon salt to flour mixture; mix 5 minutes or until a soft dough forms. Place dough in a large bowl coated with cooking spray; cover surface of dough with plastic wrap lightly coated with cooking spray. Refrigerate 24 hours.
+
+<p>Prepare grill to high.</p>
+
+Remove dough from refrigerator. Let stand, covered, 1 hour or until dough comes to room temperature. Punch dough down. Press dough out to a 12-inch oval on a lightly floured baking sheet sprinkled with cornmeal. Crimp edges to form a 1/2-inch border. Cover dough loosely with plastic wrap.
+
+<p>Brush eggplant, zucchini, and bell pepper with remaining 2 tablespoons oil. Grill eggplant 4 minutes on each side or until tender; place in a bowl. Grill zucchini 3 minutes on each side or until tender; add to eggplant. Place pepper quarters, skin side down, on grill rack; grill 6 minutes or until blistered. Place peppers in a zip-top plastic bag; seal. Let stand 10 minutes. Peel peppers; add to vegetable mixture. Coarsely chop vegetables. Add garlic to vegetables; toss to combine.</p>
+
+Place pizza dough, cornmeal side up, on grill rack coated with cooking spray, and grill for 4 minutes or until blistered. Turn dough over; grill 3 minutes. Remove from grill. Spread Basic Pizza Sauce evenly over top side of crust, leaving a 1/2-inch border. Arrange vegetable mixture evenly over sauce; sprinkle evenly with remaining 1/2 teaspoon salt and black pepper. Top with cheese. Return pizza to grill rack, and grill for 4 minutes or until thoroughly cooked. Cut pizza into 10 pieces; sprinkle with mint and thyme.
+
+	</div><!-- /grid-solo -->
+</div>
+	</div><!-- /content -->
+
+	<div data-role="footer" class="nav-glyphish-example" data-id="foo1" data-position="fixed">
+		<div data-role="navbar" class="nav-glyphish-example" data-grid="c">
+<ul>
+<li><a href="#menu"   id="home" data-icon="custom" data-theme="c">Menu</a></li>
+<li><a href="#info" id="history" data-icon="custom" data-theme="c">About</a></li>
+<li><a href="#tips" id="tips" data-icon="custom" data-theme="c">Dough</a></li>
+<li><a href="#page46" id="stuff" data-icon="custom" data-theme="c">Next</a></li>
+</ul>
+		</div>
+	
+	</div>
+</div><!-- /page 3 -->
+
+
+
+<div data-role="page" id="page46" data-add-back-btn="true"><!-- page 4 -->
+
+	<div data-role="header" data-theme="a" data-position="inline">
+		<h1>Main Dish Pizza</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="a">
+	<p><strong>Veggi Mexican Taco Pizza</strong></p>
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"> 
+<!-- <div id="image"><img src="images/r17.jpg"></div> -->
+
+<a href="#popupNYC" data-rel="popup" data-position-to="window">
+<img class="popphoto" src="images/r17.jpg" alt="Apple Pizza" style="float:right; padding:10px; width:35px height:35px"></a>
+
+<div data-role="popup" id="popupNYC" data-overlay-theme="a" data-theme="d" data-corners="true">
+					<a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="images/r17.jpg" style="style="max-width:100%;" alt="Apple Pizza">
+				</div>
+
+</div>
+</div><!-- /ui-grid-solo -->
+
+	<div class="ui-grid-solo">
+	<div class="ui-block-a">
+	<p><strong>Ingredients:</strong></p>
+
+1 16 ounce can kidney beans, rinsed and drained<br>
+3/4 cup salsa<br>
+1 - 12 inch Quick Pizza Dough<br>
+1 1/2 cups reduced-fat shredded Cheddar cheese<br>
+1 yellow or green bell pepper, sliced into thin rings<br>
+1 red onion, sliced into thin rings<br>
+2 tbsp chopped cilantro or green onions
+</div>
+	</div><!-- /grid-a -->
+	<div class="ui-grid-solo">
+	<div class="ui-block-a"><p><strong>Directions:</strong></p>
+	Heat oven to 425 degrees.
+<p>
+Place 3/4 cup beans in small bowl and partially mash with potato masher or back of wooden spoon. Add salsa; mix well.</p>
+
+Spread bean mixture evenly over pizza crust. Top pizza with cheese, remaining beans, peppers and onions.
+<p>
+Place pizza on baking sheet; bake for 12 minutes or until cheese is melted and crust is golden brown.</p>
+	</div><!-- /grid-solo -->
+</div>
+	</div><!-- /content -->
+
+	<div data-role="footer" class="nav-glyphish-example" data-id="foo1" data-position="fixed">
+		<div data-role="navbar" class="nav-glyphish-example" data-grid="c">
+<ul>
+<li><a href="#menu"   id="home" data-icon="custom" data-theme="c">Menu</a></li>
+<li><a href="#info" id="history" data-icon="custom" data-theme="c">About</a></li>
+<li><a href="#tips" id="tips" data-icon="custom" data-theme="c">Dough</a></li>
+<li><a href="#menu" id="stuff" data-icon="custom" data-theme="c">Next</a></li>
+</ul>
+		</div>
+	
+	</div>
+</div><!-- /page 4 -->
+
+<div data-role="page" id="info" data-add-back-btn="true"><!-- page About -->
+
+	<div data-role="header" data-theme="a" data-position="inline">
+		<h1>About</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="a">
+	<strong>Vegetarian Pizza Recipes</strong>
+	<div class="ui-grid-solo">
+	<div class="ui-block-a">
+<!-- <div id="image"><img src="images/r42.jpg"></div> -->
+</div>
+
+
+</div><!-- /ui-grid-solo -->
+
+	<div class="ui-grid-solo">
+	<div class="ui-block-a">
+	<p><strong>This App is brought to you by greendog</strong></p>
+
+<p>
+You may also be interested in greendog's app "Vegetarian Cabbage Recipes"
+ 
+	</div><!-- /grid-solo -->
+</div>
+	</div><!-- /content -->
+
+	<div data-role="footer" class="nav-glyphish-example" data-id="foo1" data-position="fixed">
+		<div data-role="navbar" class="nav-glyphish-example" data-grid="c">
+<ul>
+<li><a href="#menu"   id="home" data-icon="custom" data-theme="c">Menu</a></li>
+<li><a href="#info" id="history" data-icon="custom" data-theme="c">About</a></li>
+<li><a href="#tips" id="tips" data-icon="custom" data-theme="c">Dough</a></li>
+<li><a href="#page3" id="stuff" data-icon="custom" data-theme="c">Next</a></li>
+</ul>
+		</div>
+	
+	</div>
+</div><!-- /page 2-->
+
+
+</body>
+</html>
